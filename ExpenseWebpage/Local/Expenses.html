@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Reimbursement System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            grid-area: header;
+            background-color:rgba(129, 126, 126, 0.432);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color:darkblue;
+        }
+
+        h4{
+            grid-area: h4;
+            text-align:center;
+
+        }
+        
+        .inputForm { 
+            grid-area: loginScreen;
+            border: 3px solid #f1f1f1;
+            background-color:rgb(255, 255, 255);
+            display:block;
+            padding: 20px;
+
+            width:100%
+        }
+
+        .grid-container{
+            display:grid;
+            grid-template-areas: 
+                'header header header'
+                'h4 h4 h4'
+                '. loginScreen .';
+            grid-gap: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>Expense Reimbursement System</header>
+        
+        <h4>Login</h4>
+        <form class="inputForm">
+            <div class="form-group">
+                <label for="usernameInput">Username:</label>
+                <input type="text" class="form-control" id="usernameInput" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label for="passwordInput">Password:</label>
+                <input id="passwordInput" type="password" class="form-control" placeholder="Enter password">
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="login()">Submit</button>
+            <div id="warningMessage"></div>
+        </form> 
+
+
+    </div>
+
+</body>
+<script>
+    const usernameInput = document.getElementById("usernameInput");
+    const passwordInput = document.getElementById("passwordInput");
+    let currentRole = '';
+
+    async function login(){
+
+        const user = {
+            id:0,
+            name:"",
+            username: usernameInput.value,
+            password: passwordInput.value
+        }
+
+        const details={
+            method:'POST',
+            body:JSON.stringify(user)
+        }
+
+        const httpResponse = await fetch("http://localhost:7000/users/login",details);
+        const jwt = await httpResponse.text()
+        localStorage.setItem('jwt',jwt);
+        const token = localStorage.getItem('jwt'); // jwt token;
+        // const decoded = JSON.parse(atob(token.split('.')[1]));
+        const decoded = JSON.parse(atob(token.split('.')[1]));
+        // console.log(decoded);
+        currentRole = decoded.role;
+        // console.log(currentRole);
+
+        if(currentRole=="manager"){
+            window.location.replace("Manager.html");
+        }else if(currentRole=="employee"){
+            window.location.replace("Employee.html");
+        }else{
+            const msg = document.getElementById("warningMessage");
+            msg.innerHTML = `<p class="text-danger">Invalid Login</p>`;
+        }
+    }
+
+</script>
+</html>

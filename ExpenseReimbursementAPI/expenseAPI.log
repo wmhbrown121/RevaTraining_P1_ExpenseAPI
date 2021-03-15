@@ -1,0 +1,1077 @@
+2021-03-12 15:23:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 15:23:56 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 15:23:57 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 15:23:57 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 15:23:57 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 15:23:57 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 15:23:57 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 15:23:57 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 15:23:58 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 15:34:16 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 15:34:17 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 15:34:17 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 15:34:17 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 15:34:17 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 15:34:17 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 15:34:17 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 15:34:18 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 15:34:19 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 15:37:36 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 15:37:36 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 15:37:36 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 15:37:36 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 15:37:36 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 15:37:36 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 15:37:36 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 15:37:37 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 15:37:38 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 15:41:23 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 15:41:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 15:41:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 15:41:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 15:41:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 15:41:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 15:41:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 15:41:24 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 15:41:25 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 15:43:32 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 15:43:32 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 15:43:32 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 15:43:32 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 15:43:32 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 15:43:32 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 15:43:32 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 15:43:33 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 15:43:34 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:20:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:20:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:20:34 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 17:20:34 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 17:20:34 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 17:20:34 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 17:20:34 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 17:20:35 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:20:36 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:27:17 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:27:18 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:27:18 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 17:27:18 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 17:27:18 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 17:27:18 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 17:27:18 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 17:27:19 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:27:19 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:41:02 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:41:03 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:41:03 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 17:41:03 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 17:41:03 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 17:41:03 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 17:41:03 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 17:41:04 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:41:04 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 17:53:46 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 17:53:47 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 17:53:47 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 17:53:47 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 17:53:47 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 17:53:47 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 17:53:47 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 17:53:47 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 17:53:48 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:08:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 18:08:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 18:08:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 18:08:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 18:08:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 18:08:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 18:08:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 18:08:23 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 18:08:25 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:08:58 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 18:08:59 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 18:08:59 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 18:08:59 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 18:08:59 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 18:08:59 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 18:08:59 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 18:09:00 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 18:09:00 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:49:03 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 18:49:03 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 18:49:04 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 18:49:04 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 18:49:04 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 18:49:04 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 18:49:04 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 18:49:04 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 18:49:05 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:50:09 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 18:50:09 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 18:50:09 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 18:50:09 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 18:50:09 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 18:50:09 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 18:50:09 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 18:50:10 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 18:50:11 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:54:48 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 18:54:49 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 18:54:49 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 18:54:49 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 18:54:49 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 18:54:49 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 18:54:49 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 18:54:49 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 18:54:50 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:56:32 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 18:56:32 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 18:56:33 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 18:56:33 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 18:56:33 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 18:56:33 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 18:56:33 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 18:56:33 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 18:56:34 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:56:54 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 18:56:55 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 18:56:55 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 18:56:55 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 18:56:55 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 18:56:55 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 18:56:55 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 18:56:56 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 18:56:56 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 19:13:42 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 19:13:43 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 19:13:43 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 19:13:43 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 19:13:43 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 19:13:43 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 19:13:43 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 19:13:44 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 19:13:45 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 20:30:42 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 20:30:42 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 20:30:42 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 20:30:42 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 20:30:42 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 20:30:42 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 20:30:42 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 20:30:43 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 20:30:44 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 20:38:39 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 20:38:40 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 20:38:40 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 20:38:40 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 20:38:40 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 20:38:40 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 20:38:40 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 20:38:41 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 20:38:41 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 21:15:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 21:15:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 21:15:29 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 21:15:29 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 21:15:29 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 21:15:29 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 21:15:29 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 21:15:30 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 21:15:31 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 21:19:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 21:19:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 21:19:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 21:19:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 21:19:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 21:19:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 21:19:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 21:19:23 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 21:19:24 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 21:20:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-12 21:20:30 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-12 21:20:30 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-12 21:20:30 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-12 21:20:30 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-12 21:20:30 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-12 21:20:30 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-12 21:20:31 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-12 21:20:31 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 14:36:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 14:36:20 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 14:36:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 14:36:20 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 14:36:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 14:36:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 14:36:20 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 14:36:21 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 14:36:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 16:46:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 16:46:22 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 16:46:22 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 16:46:22 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 16:46:22 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 16:46:22 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 16:46:22 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 16:46:23 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 16:46:24 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 16:54:19 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23503
+2021-03-13 16:54:19 ERROR SqlExceptionHelper:142 - ERROR: insert or update on table "expense" violates foreign key constraint "fk_expense_employee"
+  Detail: Key (employee_id)=(0) is not present in table "employee".
+2021-03-13 16:54:35 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23503
+2021-03-13 16:54:35 ERROR SqlExceptionHelper:142 - ERROR: insert or update on table "expense" violates foreign key constraint "fk_expense_employee"
+  Detail: Key (employee_id)=(0) is not present in table "employee".
+2021-03-13 16:55:37 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23503
+2021-03-13 16:55:37 ERROR SqlExceptionHelper:142 - ERROR: insert or update on table "expense" violates foreign key constraint "fk_expense_employee"
+  Detail: Key (employee_id)=(0) is not present in table "employee".
+2021-03-13 17:06:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:06:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:06:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:06:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:06:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:06:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:06:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:06:24 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:06:25 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 17:08:23 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:08:24 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:08:24 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:08:24 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:08:24 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:08:24 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:08:24 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:08:24 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:08:25 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 17:12:10 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:12:10 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:12:10 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:12:10 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:12:10 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:12:10 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:12:10 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:12:11 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:12:12 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 17:14:36 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:14:37 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:14:37 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:14:37 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:14:37 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:14:37 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:14:37 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:14:38 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:14:38 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 17:20:51 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23503
+2021-03-13 17:20:51 ERROR SqlExceptionHelper:142 - ERROR: insert or update on table "expense" violates foreign key constraint "fk_expense_employee"
+  Detail: Key (employee_id)=(0) is not present in table "employee".
+2021-03-13 17:27:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:27:46 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:27:46 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:27:46 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:27:46 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:27:46 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:27:46 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:27:47 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:27:47 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 17:35:43 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:35:44 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:35:44 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:35:44 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:35:44 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:35:44 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:35:44 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:35:45 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:35:46 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 17:38:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:38:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:38:35 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:38:35 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:38:35 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:38:35 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:38:35 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:38:35 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:38:36 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 17:42:46 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 17:42:47 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 17:42:47 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 17:42:47 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 17:42:47 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 17:42:47 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 17:42:47 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 17:42:48 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 17:42:48 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 18:33:20 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 18:33:20 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 18:33:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 18:33:20 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 18:33:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 18:33:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 18:33:20 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 18:33:21 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 18:33:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 18:33:53 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 18:33:53 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 18:33:53 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 18:33:53 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 18:33:53 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 18:33:53 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 18:33:53 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 18:33:54 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 18:33:55 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 18:55:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 18:55:57 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 18:55:57 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 18:55:57 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 18:55:57 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 18:55:57 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 18:55:57 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 18:55:58 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 18:55:58 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 18:59:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 18:59:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 18:59:29 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 18:59:29 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 18:59:29 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 18:59:29 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 18:59:29 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 18:59:30 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 18:59:31 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:04:20 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:04:20 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:04:21 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:04:21 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:04:21 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:04:21 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:04:21 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:04:21 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:04:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:07:37 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:07:38 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:07:38 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:07:38 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:07:38 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:07:38 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:07:38 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:07:38 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:07:39 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:09:57 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:09:58 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:09:58 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:09:58 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:09:58 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:09:58 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:09:58 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:09:58 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:09:59 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:10:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:10:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:10:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:10:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:10:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:10:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:10:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:10:24 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:10:25 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:11:35 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:11:36 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:11:36 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:11:36 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:11:36 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:11:36 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:11:36 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:11:37 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:11:38 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:12:28 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:12:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:12:29 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:12:29 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:12:29 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:12:29 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:12:29 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:12:29 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:12:30 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:13:44 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:13:44 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:13:44 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:13:44 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:13:44 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:13:44 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:13:44 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:13:45 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:13:46 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:58:42 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 19:58:43 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 19:58:43 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 19:58:43 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 19:58:43 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 19:58:43 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 19:58:43 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 19:58:43 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 19:58:44 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 19:58:45 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 19:58:45 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 20:24:48 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 20:24:49 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 20:24:49 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 20:24:49 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 20:24:49 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 20:24:49 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 20:24:49 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 20:24:49 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 20:24:50 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 20:24:51 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 20:24:51 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 20:25:14 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 20:25:15 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 20:25:15 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 20:25:15 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 20:25:15 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 20:25:15 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 20:25:15 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 20:25:15 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 20:25:16 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 20:25:17 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 20:25:17 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 20:50:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 20:50:46 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 20:50:46 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 20:50:46 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 20:50:46 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 20:50:46 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 20:50:46 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 20:50:47 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 20:50:47 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 20:50:48 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 20:52:11 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 20:52:11 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 20:52:11 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 20:52:11 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 20:52:11 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 20:52:11 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 20:52:11 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 20:52:12 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 20:52:12 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 20:52:13 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 20:53:43 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 20:53:44 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 20:53:44 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 20:53:44 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 20:53:44 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 20:53:44 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 20:53:44 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 20:53:44 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 20:53:45 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 20:53:45 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 20:55:27 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 20:55:27 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 20:55:27 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 20:55:27 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 20:55:27 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 20:55:27 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 20:55:27 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 20:55:28 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 20:55:28 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 20:55:29 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 20:57:30 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 20:57:30 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 20:57:31 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 20:57:31 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 20:57:31 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 20:57:31 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 20:57:31 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 20:57:31 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 20:57:32 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 20:57:32 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 20:58:27 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 20:58:27 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 20:58:27 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 20:58:27 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.dtype does not exist
+  Position: 203
+2021-03-13 21:00:10 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:00:10 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:00:10 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:00:10 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.dtype does not exist
+  Position: 203
+2021-03-13 21:02:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:02:19 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:02:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:02:20 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:02:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:02:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:02:20 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:02:20 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:02:21 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:02:21 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:04:25 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:04:25 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:04:25 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:04:25 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:04:25 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:04:25 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:04:25 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:04:26 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:04:26 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:04:27 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:04:46 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:04:46 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:06:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:06:12 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:06:13 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:06:13 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:06:13 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:06:13 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:06:13 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:06:13 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:06:14 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:06:14 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:06:21 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:06:21 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:09:31 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:09:31 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:09:31 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:09:31 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:09:31 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:09:31 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:09:31 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:09:32 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:09:33 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:09:33 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:09:35 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:09:35 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:10:08 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:10:09 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:10:09 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:10:09 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:10:09 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:10:09 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:10:09 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:10:09 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:10:10 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:10:10 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:10:12 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:10:12 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:10:41 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:10:41 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:14:53 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:14:53 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:14:53 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:14:53 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:14:53 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:14:53 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:14:53 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:14:54 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:14:54 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:14:55 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:14:59 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:14:59 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:15:59 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:15:59 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:15:59 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:15:59 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:15:59 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:15:59 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:15:59 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:16:00 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:16:01 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:16:01 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:16:05 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:16:05 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:16:10 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:16:10 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:16:24 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:16:24 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:16:24 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:16:24 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:16:24 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:16:24 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:16:24 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:16:25 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:16:26 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:16:26 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:16:29 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:16:29 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:17:04 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:17:04 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:17:04 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:17:04 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:17:04 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:17:04 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:17:04 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:17:05 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:17:05 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:17:06 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:17:11 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:17:11 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:19:48 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:19:48 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:19:49 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:19:49 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:19:49 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:19:49 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:19:49 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:19:49 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:19:50 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:19:50 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:19:50 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:19:50 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:19:51 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:19:51 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.dtype does not exist
+  Position: 203
+2021-03-13 21:23:05 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:23:05 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:23:05 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:23:05 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:23:05 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:23:05 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:23:05 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:23:06 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:23:07 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:23:07 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:23:07 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:23:07 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:23:07 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:23:07 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.dtype does not exist
+  Position: 203
+2021-03-13 21:23:14 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:23:14 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:23:15 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:23:15 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:23:15 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:23:15 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:23:15 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:23:15 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:23:16 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:23:16 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:23:58 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:23:58 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:26:07 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:26:08 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:26:08 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:26:08 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:26:08 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:26:08 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:26:08 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:26:09 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:26:09 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:26:10 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:36:33 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:36:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:36:34 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:36:34 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:36:34 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:36:34 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:36:34 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:36:34 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:36:35 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:36:35 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:36:42 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:36:42 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:40:27 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:40:28 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:40:28 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:40:28 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:40:28 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:40:28 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:40:28 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:40:29 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:40:29 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:40:30 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:54:27 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:54:28 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:54:28 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:54:28 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:54:28 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:54:28 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:54:28 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:54:29 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:54:29 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:54:30 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:54:37 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:54:37 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 21:56:31 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 21:56:32 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 21:56:32 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 21:56:32 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 21:56:32 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 21:56:32 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 21:56:32 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 21:56:33 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 21:56:33 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 21:56:34 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 21:56:36 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 21:56:36 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 22:03:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:03:12 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:03:12 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:03:12 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:03:12 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:03:12 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:03:12 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:03:13 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 22:03:14 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 22:03:14 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:03:20 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:03:20 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 22:05:21 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:05:21 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:05:21 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:05:21 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:05:21 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:05:21 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:05:21 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:05:22 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 22:05:22 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 22:05:23 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:05:23 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:05:23 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 22:05:23 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:05:23 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.dtype does not exist
+  Position: 203
+2021-03-13 22:06:09 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:06:09 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:06:09 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:06:09 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:06:09 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:06:09 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:06:09 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:06:10 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 22:06:10 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 22:06:11 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:06:11 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:06:11 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 22:06:11 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:06:11 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.dtype does not exist
+  Position: 203
+2021-03-13 22:08:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:08:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:08:29 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:08:29 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:08:29 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:08:29 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:08:29 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:08:30 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-13 22:08:30 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 22:08:31 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:08:31 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:08:31 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 22:13:00 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:13:00 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:13:00 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:13:00 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:13:00 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:13:00 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:13:00 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:13:01 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:13:02 WARN  AnnotationBinder:666 - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: dev.hbrown.entities.Manager
+2021-03-13 22:13:02 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:13:02 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:13:02 ERROR SqlExceptionHelper:142 - ERROR: column employee0_.dtype does not exist
+  Position: 178
+2021-03-13 22:14:00 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:14:00 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:14:00 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:14:00 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:14:00 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:14:00 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:14:00 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:14:01 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:14:02 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:14:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:14:35 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:14:35 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:14:35 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:14:35 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:14:35 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:14:35 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:14:36 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:14:37 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:17:07 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:17:08 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:17:08 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:17:08 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:17:08 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:17:08 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:17:08 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:17:08 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:17:09 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:17:26 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:17:26 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:18:11 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:18:11 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:18:11 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:18:11 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:18:11 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:18:11 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:18:11 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:18:12 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:18:13 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:18:14 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:18:14 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:18:58 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:18:59 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:18:59 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:18:59 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:18:59 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:18:59 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:18:59 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:18:59 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:19:00 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:19:03 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:19:03 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:19:26 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:19:26 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:24:04 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:24:04 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:24:05 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:24:05 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:24:05 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:24:05 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:24:05 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:24:05 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:24:06 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:24:10 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:24:10 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:25:31 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:25:31 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:25:39 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:25:39 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:25:48 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:25:48 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:25:54 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:25:54 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:26:02 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 42703
+2021-03-13 22:26:02 ERROR SqlExceptionHelper:142 - ERROR: column manager0_.manager_password does not exist
+  Position: 86
+2021-03-13 22:27:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:27:13 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:27:13 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:27:13 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:27:13 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:27:13 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:27:13 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:27:13 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:27:14 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:28:21 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:28:21 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:28:21 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:28:21 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:28:21 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:28:21 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:28:21 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:28:22 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:28:23 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-13 22:32:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-13 22:32:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-13 22:32:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-13 22:32:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-13 22:32:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-13 22:32:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-13 22:32:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-13 22:32:23 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-13 22:32:24 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 10:18:35 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 10:18:36 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 10:18:36 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 10:18:36 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 10:18:36 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 10:18:36 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 10:18:36 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 10:18:37 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 10:18:38 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 10:39:18 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 10:39:18 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 10:39:19 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 10:39:19 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 10:39:19 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 10:39:19 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 10:39:19 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 10:39:19 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 10:39:20 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 10:45:05 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 10:45:06 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 10:45:06 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 10:45:06 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 10:45:06 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 10:45:06 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 10:45:06 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 10:45:06 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 10:45:07 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 10:54:51 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 10:54:51 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 10:54:51 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 10:54:51 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 10:54:51 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 10:54:51 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 10:54:51 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 10:54:52 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 10:54:53 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 11:12:14 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 11:12:15 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 11:12:15 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 11:12:15 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 11:12:15 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 11:12:15 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 11:12:15 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 11:12:16 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 11:12:17 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 12:12:20 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 12:12:21 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 12:12:21 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 12:12:21 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 12:12:21 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 12:12:21 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 12:12:21 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 12:12:22 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 12:12:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 12:13:39 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 12:13:40 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 12:13:40 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 12:13:40 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 12:13:40 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 12:13:40 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 12:13:40 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 12:13:41 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 12:13:42 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 12:21:24 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 12:21:24 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 12:21:24 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 12:21:24 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 12:21:24 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 12:21:24 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 12:21:24 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 12:21:25 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 12:21:26 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 17:06:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 17:06:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 17:06:34 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 17:06:34 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 17:06:34 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 17:06:34 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 17:06:34 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 17:06:35 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 17:06:36 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 17:07:23 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 17:07:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 17:07:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 17:07:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 17:07:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 17:07:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 17:07:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 17:07:24 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 17:07:25 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 17:10:16 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 17:10:17 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 17:10:17 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 17:10:17 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 17:10:17 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 17:10:17 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 17:10:17 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 17:10:18 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 17:10:19 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-14 17:10:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-14 17:10:39 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-14 17:10:39 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-14 17:10:39 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-14 17:10:39 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-14 17:10:39 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-14 17:10:39 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-14 17:10:39 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-14 17:10:40 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 00:38:44 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-15 00:38:44 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 00:38:44 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-15 00:38:44 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-15 00:38:44 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-15 00:38:44 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-15 00:38:44 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-15 00:38:45 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-15 00:38:46 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 00:38:51 INFO  LoginController:30 - Start - New login request
+2021-03-15 00:38:51 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 00:38:51 INFO  UserDaoHibernate:41 - Employee NOT found
+2021-03-15 00:38:51 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 00:38:52 INFO  UserDaoHibernate:64 - Manager found.
+2021-03-15 00:38:52 INFO  UserServiceImpl:46 - Manager password verified.
+2021-03-15 00:38:52 INFO  LoginController:46 - Manager login SUCCESSFUL
+2021-03-15 00:39:04 INFO  ExpenseController:59 - Request started: Get All Expenses
+2021-03-15 00:39:04 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 00:39:04 INFO  ExpenseController:66 - Request completed: All expenses retrieved.
+2021-03-15 00:39:11 INFO  ExpenseController:59 - Request started: Get All Expenses
+2021-03-15 00:39:11 ERROR ExpenseController:76 - Exception thrown.
+java.lang.NullPointerException: Cannot invoke "com.auth0.jwt.interfaces.DecodedJWT.getClaim(String)" because "decodedJWT" is null
+	at dev.hbrown.controllers.ExpenseController.lambda$new$1(ExpenseController.java:62)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:23)
+	at io.javalin.http.JavalinServlet$addHandler$protectedHandler$1.handle(JavalinServlet.kt:121)
+	at io.javalin.http.JavalinServlet$service$2$1.invoke(JavalinServlet.kt:45)
+	at io.javalin.http.JavalinServlet$service$2$1.invoke(JavalinServlet.kt:24)
+	at io.javalin.http.JavalinServlet$service$1.invoke(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet$service$2.invoke(JavalinServlet.kt:40)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:81)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.websocket.JavalinWsServlet.service(JavalinWsServlet.kt:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:791)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.core.JavalinServer$start$wsAndHttpHandler$1.doHandle(JavalinServer.kt:49)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:773)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:905)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-03-15 00:39:20 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 00:39:21 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 00:39:21 INFO  ExpenseController:92 - Request completed: Expenses retrieved successfully for Employee 1 by Manager.

@@ -1,0 +1,137 @@
+2021-03-15 00:50:46 INFO  Version:44 - HHH000412: Hibernate ORM core version 1.0
+2021-03-15 00:50:46 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 00:50:46 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-15 00:50:46 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-15 00:50:46 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-15 00:50:46 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-15 00:50:46 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-15 00:50:47 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-15 00:50:48 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 01:13:32 INFO  Version:44 - HHH000412: Hibernate ORM core version 1.0
+2021-03-15 01:13:33 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 01:13:33 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-15 01:13:33 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-15 01:13:33 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-15 01:13:33 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-15 01:13:33 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-15 01:13:34 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-15 01:13:34 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 01:14:04 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 01:14:05 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 01:14:05 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:33:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 1.0
+2021-03-15 09:33:23 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 09:33:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-15 09:33:23 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+2021-03-15 09:33:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgresuser}
+2021-03-15 09:33:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-03-15 09:33:23 INFO  DriverManagerConnectionProviderImpl:259 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-03-15 09:33:24 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+2021-03-15 09:33:25 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 09:34:45 INFO  LoginController:31 - Start - New login request
+2021-03-15 09:34:45 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 09:34:45 INFO  UserDaoHibernate:41 - Employee NOT found
+2021-03-15 09:34:45 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 09:34:45 INFO  UserDaoHibernate:64 - Manager found.
+2021-03-15 09:34:45 INFO  UserServiceImpl:46 - Manager password verified.
+2021-03-15 09:34:46 INFO  LoginController:47 - Manager login SUCCESSFUL
+2021-03-15 09:36:12 INFO  LoginController:31 - Start - New login request
+2021-03-15 09:36:12 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 09:36:12 INFO  UserDaoHibernate:37 - Employee found
+2021-03-15 09:36:12 INFO  UserServiceImpl:27 - Employee password verified.
+2021-03-15 09:36:12 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 09:36:12 INFO  UserDaoHibernate:68 - Manager NOT found
+2021-03-15 09:36:12 INFO  LoginController:39 - Employee login SUCCESSFUL
+2021-03-15 09:36:12 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:36:12 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:36:12 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:39:57 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:39:57 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:39:57 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:40:30 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:40:30 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:40:30 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:41:32 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:41:32 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:41:32 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:47:05 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:47:05 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:47:05 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:48:25 INFO  LoginController:31 - Start - New login request
+2021-03-15 09:48:25 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 09:48:25 INFO  UserDaoHibernate:37 - Employee found
+2021-03-15 09:48:25 INFO  UserServiceImpl:27 - Employee password verified.
+2021-03-15 09:48:25 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 09:48:25 INFO  UserDaoHibernate:68 - Manager NOT found
+2021-03-15 09:48:25 INFO  LoginController:39 - Employee login SUCCESSFUL
+2021-03-15 09:48:25 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:48:25 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:48:25 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:49:20 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:49:20 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:49:20 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:50:08 INFO  LoginController:31 - Start - New login request
+2021-03-15 09:50:08 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 09:50:08 INFO  UserDaoHibernate:37 - Employee found
+2021-03-15 09:50:08 INFO  UserServiceImpl:27 - Employee password verified.
+2021-03-15 09:50:08 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 09:50:08 INFO  UserDaoHibernate:68 - Manager NOT found
+2021-03-15 09:50:08 INFO  LoginController:39 - Employee login SUCCESSFUL
+2021-03-15 09:50:08 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:50:08 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:50:08 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:50:24 INFO  ExpenseController:27 - Request started: Submit New Expense for Employee 1.
+2021-03-15 09:50:25 INFO  ExpenseDaoHibernate:35 - Expense persisted in DB.
+2021-03-15 09:50:25 INFO  ExpenseController:39 - Request completed: Expense submitted successfully
+2021-03-15 09:50:25 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:50:25 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:50:25 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 09:54:22 INFO  LoginController:31 - Start - New login request
+2021-03-15 09:54:22 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 09:54:22 INFO  UserDaoHibernate:41 - Employee NOT found
+2021-03-15 09:54:22 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 09:54:22 INFO  UserDaoHibernate:64 - Manager found.
+2021-03-15 09:54:22 INFO  UserServiceImpl:46 - Manager password verified.
+2021-03-15 09:54:22 INFO  LoginController:47 - Manager login SUCCESSFUL
+2021-03-15 09:54:23 INFO  ExpenseController:59 - Request started: Get All Expenses
+2021-03-15 09:54:23 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:54:23 INFO  ExpenseController:66 - Request completed: All expenses retrieved.
+2021-03-15 09:54:30 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:54:30 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:54:30 INFO  ExpenseController:92 - Request completed: Expenses retrieved successfully for Employee 1 by Manager.
+2021-03-15 09:58:50 INFO  ExpenseController:59 - Request started: Get All Expenses
+2021-03-15 09:58:50 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:58:50 INFO  ExpenseController:66 - Request completed: All expenses retrieved.
+2021-03-15 09:58:58 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 09:58:58 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:58:58 INFO  ExpenseController:92 - Request completed: Expenses retrieved successfully for Employee 1 by Manager.
+2021-03-15 09:59:30 INFO  ExpenseController:156 - Request started: Update Expense (Expense 5).
+2021-03-15 09:59:30 INFO  ExpenseDaoHibernate:69 - Expense 5 retrieved from DB.
+2021-03-15 09:59:30 INFO  ExpenseDaoHibernate:87 - Expense updated in DB successfully.
+2021-03-15 09:59:30 INFO  ExpenseController:170 - Request completed: Expense (5) successfully updated.
+2021-03-15 09:59:30 INFO  ExpenseController:59 - Request started: Get All Expenses
+2021-03-15 09:59:30 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 09:59:30 INFO  ExpenseController:66 - Request completed: All expenses retrieved.
+2021-03-15 10:01:05 INFO  ExpenseController:59 - Request started: Get All Expenses
+2021-03-15 10:01:05 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 10:01:05 INFO  ExpenseController:66 - Request completed: All expenses retrieved.
+2021-03-15 10:01:51 INFO  ExpenseController:59 - Request started: Get All Expenses
+2021-03-15 10:01:51 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 10:01:51 INFO  ExpenseController:66 - Request completed: All expenses retrieved.
+2021-03-15 10:02:17 INFO  LoginController:31 - Start - New login request
+2021-03-15 10:02:17 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 10:02:17 INFO  UserDaoHibernate:37 - Employee found
+2021-03-15 10:02:17 INFO  UserServiceImpl:27 - Employee password verified.
+2021-03-15 10:02:17 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 10:02:17 INFO  UserDaoHibernate:68 - Manager NOT found
+2021-03-15 10:02:17 INFO  LoginController:39 - Employee login SUCCESSFUL
+2021-03-15 10:02:17 INFO  ExpenseController:85 - Request started: Get Expenses by Employee
+2021-03-15 10:02:17 INFO  ExpenseDaoHibernate:53 - All Expenses retrieved from DB.
+2021-03-15 10:02:17 INFO  ExpenseController:100 - Request completed: Expenses retrieved successfully for Employee 1
+2021-03-15 10:07:09 INFO  LoginController:31 - Start - New login request
+2021-03-15 10:07:09 INFO  UserServiceImpl:22 - Accessing Employee DB..
+2021-03-15 10:07:09 INFO  UserDaoHibernate:37 - Employee found
+2021-03-15 10:07:09 INFO  UserServiceImpl:27 - Employee password verified.
+2021-03-15 10:07:09 INFO  UserServiceImpl:42 - Accessing Manager DB...
+2021-03-15 10:07:09 INFO  UserDaoHibernate:68 - Manager NOT found
+2021-03-15 10:07:09 INFO  LoginController:39 - Employee login SUCCESSFUL

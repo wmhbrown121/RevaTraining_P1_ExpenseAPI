@@ -1,0 +1,16 @@
+dev/hbrown/utiltests/JwtTest.java
+ dev.hbrown.utiltests.JwtTest
+dev/hbrown/servicetests/ExpenseServiceTests.java
+ dev.hbrown.servicetests.ExpenseServiceTests
+dev/hbrown/utiltests/ConnectionTest.java
+ dev.hbrown.utiltests.ConnectionTest
+dev/hbrown/servicetests/GetExpensesTests.java
+ dev.hbrown.servicetests.GetExpensesTests
+dev/hbrown/utiltests/HibernateUtilTest.java
+ dev.hbrown.utiltests.HibernateUtilTest
+dev/hbrown/servicetests/UserServiceTests.java
+ dev.hbrown.servicetests.UserServiceTests
+dev/hbrown/daotests/ExpenseDaoTest.java
+ dev.hbrown.daotests.ExpenseDaoTest
+dev/hbrown/daotests/UserDaoTest.java
+ dev.hbrown.daotests.UserDaoTest

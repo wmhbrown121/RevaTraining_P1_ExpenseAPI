@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Reimbursement System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            grid-area: header;
+            background-color:rgba(129, 126, 126, 0.432);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color:darkblue;
+        }
+
+        h4{
+            grid-area: h4;
+            text-align:center;
+
+        }
+        
+        .inputForm { 
+            grid-area: inputForm;
+            border: 3px solid #f1f1f1;
+            background-color:rgb(255, 255, 255);
+            display:block;
+            padding: 20px;
+
+            width:100%
+        }
+
+        .searchForm{
+            grid-area: searchForm;
+            border: 3px solid #f1f1f1;
+            background-color:rgb(255, 255, 255);
+            display:block;
+            padding: 20px;
+
+            width:100%
+        }
+
+        .form-control{
+            width:100%
+        }
+
+        .table-borderless td{
+            border:0;
+        }
+
+        #expenseTableSection{
+            grid-area: expenseTable;
+        }
+
+        .grid-container{
+            display:grid;
+            grid-template-areas: 
+                'header header header'
+                'h4 h4 h4'
+                '. inputForm .'
+                '. searchForm .'
+                '. . .'
+                'expenseTable expenseTable expenseTable';
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>Expense Reimbursement System
+            <div>
+                <button onclick="returnToLogin()" type="button" class="btn btn-primary">Log Out</button>
+            </div>
+        </header>
+        
+        <h4>Employee Menu</h4>
+
+        <div class="inputForm">
+            <form class="form-control">
+                <h5>Submit New Expense:</h5>
+                <div class="form-group">
+                    <label for="amountInput">Amount: </label>
+                    <input id="amountInput" type="number" class="form-control" placeholder="eg. $100">
+                </div>
+                <div class="form-group">
+                    <label for="reasonInput">Reason: </label>
+                    <input id="reasonInput" type="text" class="form-control" placeholder="eg. Client dinner">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="submitNewExpense()" type="button" class="btn btn-primary btn-lg">SUBMIT EXPENSE</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="searchForm">
+            <h5>Search by parameter:</h6>
+            <form class=form-control>
+                <div class="input-group mb-3">
+                    <label for="expenseIdInput">Search Expenses by Expense ID: </label>
+                    <input id="expenseIdInput" type="number" class="form-control" placeholder="Expense ID">
+                    <div class="input-group-append">
+                        <button onclick="getExpensesById()" class="btn btn-primary" type="button">Search</button>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="getAllExpenses()" type="button" class="btn btn-primary btn-lg">Get All Expenses</button>
+                </div>
+            </form>
+            
+        </div>
+
+        <div class="table-responsive" id="expenseTableSection">
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Expense ID</th>
+                        <th>Amount</th>
+                        <th>Reason</th>
+                        <th>Date Submitted</th>
+                        <th>status</th>
+                        <th>Date Verified</th>
+                        <th>Employee ID</th>
+                    </tr>
+                </thead>
+                <tbody class="table-borderless" id="expenseTableBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+<script>
+
+    const amountInput = document.getElementById("amountInput");
+    const reasonInput = document.getElementById("reasonInput");
+    const expenseTableBody = document.getElementById("expenseTableBody");
+    const expenseTableSection = document.getElementById("expenseTableSection");
+    const expenseIdInput = document.getElementById("expenseIdInput");
+
+    getAllExpenses();
+
+    async function getAllExpenses(){
+
+        const jwt = localStorage.getItem('jwt');
+        console.log(jwt);
+        const decoded = JSON.parse(atob(jwt.split('.')[1]));
+        employeeId = decoded.id;
+        
+        const details={
+            headers:{
+                "Authorization":jwt
+            }
+        }
+
+        const httpResponse = await fetch(`http://localhost:7000/expenses/employee/${employeeId}`,details);
+        const expenses = await httpResponse.json();// automatically parses the text into an object
+        tableBodyHTML(expenses);
+        
+    }
+
+    async function submitNewExpense(){
+
+        const jwt = localStorage.getItem('jwt'); // jwt token;
+        
+        const decoded = JSON.parse(atob(jwt.split('.')[1]));
+        const employeeId = decoded.id;
+        
+        const expense = {
+            expenseId:0,
+            amount: amountInput.value,
+            reason: reasonInput.value,
+            dateSubmitted: 0,
+            status: "PENDING",
+            dateVerified: 0,
+            employeeId: this.employeeId
+        }
+
+        const details={
+            method:"POST",
+            headers:{
+                "Authorization":jwt
+            },
+            body: JSON.stringify(expense)
+        }
+
+        const httpResponse = await fetch(`http://localhost:7000/expenses/employee/${employeeId}`,details);
+
+        getAllExpenses();
+
+    }
+
+    async function getExpensesById(id = 0){
+
+        const jwt = localStorage.getItem("jwt");
+        const details={
+            headers:{
+                "Authorization":jwt
+            }
+        }
+        id=expenseIdInput.value;
+
+        const httpResponse = await fetch(`http://localhost:7000/expenses/${id}`,details);
+        const expense = await httpResponse.json();// automatically parses the text into an object
+        tableBodyHTML(expense);
+    }
+
+    function tableBodyHTML(expenses){
+
+        let expenseList;
+        if(expenses.length>1){
+            expenseList=expenses;
+        }else{
+            expenseList = [expenses];
+        }
+        
+        let tbodyHtml = ``;
+
+        for(const expense of expenseList){
+            let submitted = new Date(expense.dateSubmitted*1000)
+            let verified = '';
+            
+            if(expense.dateVerified==0){
+                verified = '-';
+            }else{            
+                verified = new Date(expense.dateVerified*1000)
+                verified=verified.toLocaleDateString();
+            }
+
+            let trClassStr = ''
+            if(expense.status.toLowerCase()=="pending"){trClassStr="table-warning"}
+            if(expense.status.toLowerCase()=="approved"){trClassStr="bg-success"}
+            if(expense.status.toLowerCase()=="denied"){trClassStr="bg-danger"}
+            console.log(trClassStr)
+
+            if(expense.status.toLowerCase()=="pending"){
+                tbodyHtml += `
+                <tr>
+                    <th> ${expense.expenseId}</th>
+                    <td> $${expense.amount}</td>
+                    <td> ${expense.reason}</td>
+                    <td> ${submitted.toLocaleDateString()}</td>
+                    <td class="${trClassStr}"> ${expense.status}</td>
+                    <td> ${verified}</td>
+                    <td> ${expense.employeeId}</td>
+                </tr>`;
+            }else{
+                tbodyHtml += `
+                <tr class="table-light">
+                    <th> ${expense.expenseId}</th>
+                    <td> $${expense.amount}</td>
+                    <td> ${expense.reason}</td>
+                    <td> ${submitted.toLocaleDateString()}</td>
+                    <td> ${expense.status}</td>
+                    <td> ${verified}</td>
+                    <td> ${expense.employeeId}</td>
+                </tr>`;
+            }
+        }
+        expenseTableBody.innerHTML = tbodyHtml;
+        
+    }
+
+    function returnToLogin(){
+        console.log(localStorage.getItem("jwt"))
+        localStorage.clear('jwt');
+        console.log(localStorage.getItem("jwt"))
+
+        window.location.replace("Employee.html");
+    }
+
+    
+
+</script>
+
+</html>

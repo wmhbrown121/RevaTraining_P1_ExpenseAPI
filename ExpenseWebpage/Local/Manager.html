@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Reimbursement System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            grid-area: header;
+            background-color:rgba(129, 126, 126, 0.432);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color:darkblue;
+        }
+
+        h4{
+            grid-area: h4;
+            text-align:center;
+
+        }
+        
+        .inputForm { 
+            grid-area: inputForm;
+            border: 3px solid #f1f1f1;
+            background-color:rgb(255, 255, 255);
+            display:block;
+            padding: 20px;
+
+            width:100%
+        }
+
+        .table-borderless td{
+            border:0;
+        }
+
+        #expenseTableSection{
+            grid-area: expenseTable;
+        }
+
+        .grid-container{
+            display:grid;
+            grid-template-areas: 
+                'header header header'
+                'h4 h4 h4'
+                'inputForm inputForm inputForm'
+                '. . .'
+                'expenseTable expenseTable expenseTable';
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>Expense Reimbursement System</header>
+        
+        <h4>Manager Menu</h4>
+        <div class="inputForm">
+            <h5>Search by parameter:</h6>
+            <form class=form-control>
+                <div class="input-group mb-3">
+                    <label for="employeeIdInput">Search Expenses by Employee ID:</label>
+                    <input id="employeeIdInput" type="number" class="form-control" placeholder="Employee ID">
+                    <div class="input-group-append">
+                    <button onclick="getExpensesByEmployee()" class="btn btn-outline-secondary" type="button">Search</button>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <label for="expenseIdInput">Search Expenses by Expense ID:</label>
+                    <input id="expenseIdInput" type="number" class="form-control" placeholder="Expense ID">
+                    <div class="input-group-append">
+                    <button onclick="getExpensesById()" class="btn btn-outline-secondary" type="button">Search</button>
+                    </div>
+                </div>
+                <div>
+                    <!-- Get all expenses button -->
+                </div>
+            </form>
+        </div>
+
+        <div class="table-responsive" id="expenseTableSection">
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Expense ID</th>
+                        <th>Amount</th>
+                        <th>Reason</th>
+                        <th>Date Submitted</th>
+                        <th>status</th>
+                        <th>Date Verified</th>
+                        <th>Employee ID</th>
+                    </tr>
+                </thead>
+                <tbody class="table-borderless" id="expenseTableBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+<script>
+
+    const expenseTableBody = document.getElementById("expenseTableBody");
+    const expenseTableSection = document.getElementById("expenseTableSection");
+    const employeeIdInput = document.getElementById("employeeIdInput");
+    const expenseIdInput = document.getElementById("expenseIdInput");
+    let currentRole = '';
+    
+    getAllExpenses();
+
+    async function getAllExpenses(){
+
+        const jwt = localStorage.getItem('jwt');
+        console.log(jwt);
+        const details = {
+            headers:{
+                "Authorization":jwt
+            }
+        }        
+
+        const httpResponse = await fetch("http://localhost:7000/expenses",details)
+        const expenses = await httpResponse.json();// automatically parses the text into an object
+        console.log(expenses);
+        tableBodyHTML(expenses);
+
+    }
+
+    async function getExpensesByEmployee(id = 0){
+
+        const jwt = localStorage.getItem("jwt");
+        const details={
+            headers:{
+                "Authorization":jwt
+            }
+        }
+        id=employeeIdInput.value;
+
+        const httpResponse = await fetch(`http://localhost:7000/expenses/employee/${id}`,details);
+        const expenses = await httpResponse.json();// automatically parses the text into an object
+        tableBodyHTML(expenses);
+        
+    }
+
+    async function getExpensesById(id = 0){
+
+        const jwt = localStorage.getItem("jwt");
+        const details={
+            headers:{
+                "Authorization":jwt
+            }
+        }
+        id=expenseIdInput.value;
+
+        const httpResponse = await fetch(`http://localhost:7000/expenses/${id}`,details);
+        const expense = await httpResponse.json();// automatically parses the text into an object
+        tableBodyHTML(expense);
+    }
+
+    async function approveExpense(id){
+        const reason = document.getElementById(`verificationReason${id}`);
+        const amount = document.getElementById(`newAmountInput${id}`);
+        
+        const expense = {
+            expenseId: this.id,
+            amount: amount.value,
+            reason: reason.value,
+            status: "APPROVED"
+        }
+        
+        const jwt = localStorage.getItem("jwt");
+        const details={
+            method:"PUT",
+            headers:{
+                "Authorization":jwt
+            },
+            body: JSON.stringify(expense)
+        }
+
+        const httpResponse = await fetch(`http://localhost:7000/expenses/${id}`,details);
+        
+        getAllExpenses();
+    }
+
+    async function denyExpense(id){
+        const reason = document.getElementById(`verificationReason${id}`);
+        const amount = document.getElementById(`newAmountInput${id}`);
+        
+        const expense = {
+            expenseId: this.id,
+            amount: amount.value,
+            reason: reason.value,
+            status: "DENIED"
+        }
+        
+        const jwt = localStorage.getItem("jwt");
+        const details={
+            method:"PUT",
+            headers:{
+                "Authorization":jwt
+            },
+            body: JSON.stringify(expense)
+        }
+
+        const httpResponse = await fetch(`http://localhost:7000/expenses/${id}`,details);
+        
+        getAllExpenses();
+    }
+
+    function tableBodyHTML(expenses){
+
+        let expenseList;
+        if(expenses.length>1){
+            expenseList=expenses;
+        }else{
+            expenseList = [expenses];
+        }
+        
+        let tbodyHtml = ``;
+
+        for(const expense of expenseList){
+            let submitted = new Date(expense.dateSubmitted*1000)
+            let verified = '';
+            
+            if(expense.dateVerified==0){
+                verified = '-';
+            }else{            
+                verified = new Date(expense.dateVerified*1000)
+                verified=verified.toLocaleDateString();
+            }
+
+            let trClassStr = ''
+            if(expense.status.toLowerCase()=="pending"){trClassStr="table-warning"}
+            if(expense.status.toLowerCase()=="approved"){trClassStr="bg-success"}
+            if(expense.status.toLowerCase()=="denied"){trClassStr="bg-danger"}
+            console.log(trClassStr)
+
+            if(expense.status.toLowerCase()=="pending"){
+                tbodyHtml += `
+                <tr class="${trClassStr}">
+                    <th> ${expense.expenseId}</th>
+                    <td> $${expense.amount}</td>
+                    <td> ${expense.reason}</td>
+                    <td> ${submitted.toLocaleDateString()}</td>
+                    <td> ${expense.status}</td>
+                    <td> ${verified}</td>
+                    <td> ${expense.employeeId}</td>
+                </tr>
+                <tr class="${trClassStr}">
+                    <td colspan="2">
+                        <input id="newAmountInput${expense.expenseId}" class="form-control" type="number" placeholder="Verify amount: ${expense.amount}">
+                    </td>
+                    <td colspan="6">
+                        <div class="input-group">
+                            <input id="verificationReason${expense.expenseId}" type="text" class="form-control" placeholder="Reason for approval/denial">
+                            <div class="input-group-append">
+                                <button onclick="approveExpense(${expense.expenseId})" class="btn btn-success" type="button">Approve</button>
+                                <button onclick="denyExpense(${expense.expenseId})" class="btn btn-danger" type="button">Deny</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>`;
+            }else{
+                tbodyHtml += `
+                <tr class="table-active">
+                    <th> ${expense.expenseId}</th>
+                    <td> $${expense.amount}</td>
+                    <td> ${expense.reason}</td>
+                    <td> ${submitted.toLocaleDateString()}</td>
+                    <td> ${expense.status}</td>
+                    <td> ${verified}</td>
+                    <td> ${expense.employeeId}</td>
+                </tr>`;
+            }
+        }
+        expenseTableBody.innerHTML = tbodyHtml;
+        
+    }
+
+
+    
+
+</script>
+
+</html>

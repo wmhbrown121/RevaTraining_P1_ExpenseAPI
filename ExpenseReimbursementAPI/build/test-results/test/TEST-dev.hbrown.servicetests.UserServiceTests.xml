@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.hbrown.servicetests.UserServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-15T15:55:36" hostname="DESKTOP-422FLEC" time="0.483">
+  <properties/>
+  <testcase name="get_user_by_username()" classname="dev.hbrown.servicetests.UserServiceTests" time="0.483"/>
+  <system-out><![CDATA[DEBUG [Test worker] (CoreLogging.java:28) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+DEBUG [Test worker] (IntegratorServiceImpl.java:46) - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+DEBUG [Test worker] (IntegratorServiceImpl.java:46) - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+DEBUG [Test worker] (IntegratorServiceImpl.java:46) - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+ INFO [Test worker] (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.28.Final
+DEBUG [Test worker] (Environment.java:199) - HHH000206: hibernate.properties not found
+DEBUG [Test worker] (LocalXmlResourceResolver.java:63) - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+DEBUG [Test worker] (LocalXmlResourceResolver.java:91) - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+DEBUG [Test worker] (JaxbCfgProcessor.java:117) - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+DEBUG [Test worker] (Configuration.java:722) - Building session factory using internal StandardServiceRegistryBuilder
+DEBUG [Test worker] (ServiceBinding.java:68) - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+DEBUG [Test worker] (Configuration.java:652) - Building session factory using provided StandardServiceRegistry
+DEBUG [Test worker] (RegionFactoryInitiator.java:118) - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+DEBUG [Test worker] (RegionFactoryInitiator.java:49) - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+ INFO [Test worker] (JavaReflectionManager.java:56) - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration boolean -> org.hibernate.type.BooleanType@66739abb
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration boolean -> org.hibernate.type.BooleanType@66739abb
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@66739abb
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@25240e5c
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration true_false -> org.hibernate.type.TrueFalseType@692fbb21
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration yes_no -> org.hibernate.type.YesNoType@46146d06
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration byte -> org.hibernate.type.ByteType@d134b13
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration byte -> org.hibernate.type.ByteType@d134b13
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d134b13
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration character -> org.hibernate.type.CharacterType@1d60af0e
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration char -> org.hibernate.type.CharacterType@1d60af0e
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1d60af0e
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration short -> org.hibernate.type.ShortType@6a4913ee
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration short -> org.hibernate.type.ShortType@6a4913ee
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@6a4913ee
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration integer -> org.hibernate.type.IntegerType@615e2382
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration int -> org.hibernate.type.IntegerType@615e2382
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@615e2382
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration long -> org.hibernate.type.LongType@75dd0698
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration long -> org.hibernate.type.LongType@75dd0698
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Long -> org.hibernate.type.LongType@75dd0698
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration float -> org.hibernate.type.FloatType@29d426a2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration float -> org.hibernate.type.FloatType@29d426a2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@29d426a2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration double -> org.hibernate.type.DoubleType@6cf91154
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration double -> org.hibernate.type.DoubleType@6cf91154
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6cf91154
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6f1f2c47
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6f1f2c47
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@749e0550
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@749e0550
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration string -> org.hibernate.type.StringType@61b6036c
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.String -> org.hibernate.type.StringType@61b6036c
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@280e5159
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@485fb3b3
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration url -> org.hibernate.type.UrlType@2ac659f6
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.net.URL -> org.hibernate.type.UrlType@2ac659f6
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration Duration -> org.hibernate.type.DurationType@34481197
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@34481197
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration Instant -> org.hibernate.type.InstantType@4c3a5cd2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@4c3a5cd2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@289ef43b
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@289ef43b
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2ab3a774
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2ab3a774
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@5ef24df2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@5ef24df2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4f0d3f44
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4f0d3f44
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1356d3aa
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1356d3aa
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6d04d35f
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6d04d35f
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration date -> org.hibernate.type.DateType@2378f975
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.sql.Date -> org.hibernate.type.DateType@2378f975
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration time -> org.hibernate.type.TimeType@46099dfa
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@46099dfa
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration timestamp -> org.hibernate.type.TimestampType@3b6ab26d
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3b6ab26d
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3b6ab26d
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@37c5601
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration calendar -> org.hibernate.type.CalendarType@72cfabd5
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@72cfabd5
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@72cfabd5
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3862d5bb
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@4380bea4
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration locale -> org.hibernate.type.LocaleType@5def47d8
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5def47d8
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration currency -> org.hibernate.type.CurrencyType@43b0ce1b
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@43b0ce1b
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4d06b3fe
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4d06b3fe
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration class -> org.hibernate.type.ClassType@22a32e95
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@22a32e95
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@35e3e8f1
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@35e3e8f1
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@21ecc17f
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration binary -> org.hibernate.type.BinaryType@21f91f7
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration byte[] -> org.hibernate.type.BinaryType@21f91f7
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration [B -> org.hibernate.type.BinaryType@21f91f7
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@60f5c91d
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@60f5c91d
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@60f5c91d
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration row_version -> org.hibernate.type.RowVersionType@15f09fe2
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration image -> org.hibernate.type.ImageType@6a8fd50d
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration characters -> org.hibernate.type.CharArrayType@14a5da39
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration char[] -> org.hibernate.type.CharArrayType@14a5da39
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration [C -> org.hibernate.type.CharArrayType@14a5da39
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5adba171
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5adba171
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5adba171
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration text -> org.hibernate.type.TextType@384b0d61
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration ntext -> org.hibernate.type.NTextType@2d236ee9
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration blob -> org.hibernate.type.BlobType@2848ba7f
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2848ba7f
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3ee6d744
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration clob -> org.hibernate.type.ClobType@6987e73e
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6987e73e
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration nclob -> org.hibernate.type.NClobType@ab1300f
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@ab1300f
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@57acaba7
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@70ba107c
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration serializable -> org.hibernate.type.SerializableType@3f1f22b1
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration object -> org.hibernate.type.ObjectType@1f69b8ff
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1f69b8ff
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@65fe7713
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@db2f01e
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6edf957c
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4d849f84
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5bd43fc8
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@417c06ac
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@539a1f8a
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3a8bd2c2
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG [Test worker] (DefaultIdentifierGeneratorFactory.java:81) - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+ WARN [Test worker] (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+ INFO [Test worker] (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://104.197.147.254:5432/expensedb]
+ INFO [Test worker] (DriverManagerConnectionProviderImpl.java:121) - HHH10001001: Connection properties: {password=postgrespass, user=postgresuser}
+ INFO [Test worker] (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Initializing Connection pool with 1 Connections
+ INFO [Test worker] (DriverManagerConnectionProviderImpl.java:259) - HHH000115: Hibernate connection pool size: 20 (min=1)
+DEBUG [Test worker] (JdbcEnvironmentInitiator.java:72) - Database ->
+       name : PostgreSQL
+    version : 12.5
+      major : 12
+      minor : 5
+DEBUG [Test worker] (JdbcEnvironmentInitiator.java:83) - Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.18
+      major : 42
+      minor : 2
+DEBUG [Test worker] (DelegatingBasicLogger.java:389) - JDBC version : 4.2
+ INFO [Test worker] (Dialect.java:175) - HHH000400: Using dialect: org.hibernate.dialect.PostgresPlusDialect
+DEBUG [Test worker] (IdentifierHelperBuilder.java:110) - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+DEBUG [Test worker] (Namespace.java:51) - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@3906c75c
+DEBUG [Test worker] (BasicTypeRegistry.java:157) - Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@3906c75c
+DEBUG [Test worker] (BasicTypeRegistry.java:160) - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@35e3e8f1
+DEBUG [Test worker] (TypeConfiguration.java:152) - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4546a2f4] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5957417d]
+DEBUG [Test worker] (AnnotationBinder.java:560) - Binding entity from annotated class: dev.hbrown.entities.Expense
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+DEBUG [Test worker] (EntityBinder.java:430) - Import with entity name Expense
+DEBUG [Test worker] (EntityBinder.java:873) - Bind entity dev.hbrown.entities.Expense on table expense
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(expense), mappingColumn=expense_id, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [dev.hbrown.entities.Expense] is safe
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : dev.hbrown.entities.Expense
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property expenseId with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Expense:expenseId]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for expenseId
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property expenseId
+DEBUG [Test worker] (BinderHelper.java:643) - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(expense_id)]), expenseId, identity, , ...)
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(expense), mappingColumn=amount, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property amount with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Expense:amount]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for amount
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property amount
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(expense), mappingColumn=date_submitted, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property dateSubmitted with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Expense:dateSubmitted]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for dateSubmitted
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property dateSubmitted
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(expense), mappingColumn=date_verified, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property dateVerified with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Expense:dateVerified]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for dateVerified
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property dateVerified
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(expense), mappingColumn=employee_id, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property employeeId with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Expense:employeeId]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for employeeId
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property employeeId
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(expense), mappingColumn=reason, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property reason with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Expense:reason]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for reason
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property reason
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(expense), mappingColumn=status, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property status with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Expense:status]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for status
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property status
+DEBUG [Test worker] (AnnotationBinder.java:560) - Binding entity from annotated class: dev.hbrown.entities.Employee
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+DEBUG [Test worker] (EntityBinder.java:430) - Import with entity name Employee
+DEBUG [Test worker] (EntityBinder.java:873) - Bind entity dev.hbrown.entities.Employee on table employee
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(employee), mappingColumn=employee_id, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [dev.hbrown.entities.Employee] is safe
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : dev.hbrown.entities.Employee
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property id with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Employee:id]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for id
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property id
+DEBUG [Test worker] (BinderHelper.java:643) - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(employee_id)]), id, identity, , ...)
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(employee), mappingColumn=employee_name, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property name with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Employee:name]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for name
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property name
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(employee), mappingColumn=employee_pass, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property password with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Employee:password]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for password
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property password
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(employee), mappingColumn=employee_username, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property username with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Employee:username]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for username
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property username
+DEBUG [Test worker] (AnnotationBinder.java:560) - Binding entity from annotated class: dev.hbrown.entities.Manager
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+DEBUG [Test worker] (EntityBinder.java:430) - Import with entity name Manager
+DEBUG [Test worker] (EntityBinder.java:873) - Bind entity dev.hbrown.entities.Manager on table manager
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(manager), mappingColumn=manager_id, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [dev.hbrown.entities.Manager] is safe
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : dev.hbrown.entities.Manager
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property id with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Manager:id]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for id
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property id
+DEBUG [Test worker] (BinderHelper.java:643) - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(manager_id)]), id, identity, , ...)
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(manager), mappingColumn=manager_name, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property name with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Manager:name]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for name
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property name
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(manager), mappingColumn=manager_pass, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property password with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Manager:password]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for password
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property password
+DEBUG [Test worker] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(manager), mappingColumn=manager_username, insertable=true, updatable=true, unique=false}
+DEBUG [Test worker] (PropertyBinder.java:175) - MetadataSourceProcessor property username with lazy=false
+DEBUG [Test worker] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [dev.hbrown.entities.Manager:username]
+DEBUG [Test worker] (SimpleValueBinder.java:410) - building SimpleValue for username
+DEBUG [Test worker] (PropertyBinder.java:266) - Building property username
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for expenseId
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for amount
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for dateSubmitted
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for dateVerified
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for employeeId
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for reason
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for status
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for id
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for name
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for password
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for username
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for id
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for name
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for password
+DEBUG [Test worker] (SimpleValueBinder.java:455) - Starting fillSimpleValue for username
+DEBUG [Test worker] (PrimaryKey.java:35) - Forcing column [expense_id] to be non-null as it is part of the primary key for table [expense]
+DEBUG [Test worker] (PrimaryKey.java:35) - Forcing column [employee_id] to be non-null as it is part of the primary key for table [employee]
+DEBUG [Test worker] (PrimaryKey.java:35) - Forcing column [manager_id] to be non-null as it is part of the primary key for table [manager]
+DEBUG [Test worker] (SessionFactoryImpl.java:204) - Building session factory
+DEBUG [Test worker] (Settings.java:68) - SessionFactory name : null
+DEBUG [Test worker] (Settings.java:69) - Automatic flush during beforeCompletion(): enabled
+DEBUG [Test worker] (Settings.java:70) - Automatic session close at end of transaction: disabled
+DEBUG [Test worker] (Settings.java:72) - Statistics: disabled
+DEBUG [Test worker] (Settings.java:74) - Deleted entity synthetic identifier rollback: disabled
+DEBUG [Test worker] (Settings.java:75) - Default entity-mode: pojo
+DEBUG [Test worker] (Settings.java:76) - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+DEBUG [Test worker] (Settings.java:77) - Allow initialization of lazy state outside session : disabled
+DEBUG [Test worker] (Settings.java:79) - Using BatchFetchStyle : LEGACY
+DEBUG [Test worker] (Settings.java:80) - Default batch fetch size: -1
+DEBUG [Test worker] (Settings.java:81) - Maximum outer join fetch depth: null
+DEBUG [Test worker] (Settings.java:82) - Default null ordering: NONE
+DEBUG [Test worker] (Settings.java:83) - Order SQL updates by primary key: disabled
+DEBUG [Test worker] (Settings.java:84) - Order SQL inserts for batching: disabled
+DEBUG [Test worker] (Settings.java:86) - multi-tenancy strategy : NONE
+DEBUG [Test worker] (Settings.java:88) - JTA Track by Thread: enabled
+DEBUG [Test worker] (Settings.java:90) - Query language substitutions: {}
+DEBUG [Test worker] (Settings.java:91) - Named query checking : enabled
+DEBUG [Test worker] (Settings.java:93) - Second-level cache: disabled
+DEBUG [Test worker] (Settings.java:94) - Second-level query cache: disabled
+DEBUG [Test worker] (Settings.java:95) - Second-level query cache factory: null
+DEBUG [Test worker] (Settings.java:96) - Second-level cache region prefix: null
+DEBUG [Test worker] (Settings.java:97) - Optimize second-level cache for minimal puts: disabled
+DEBUG [Test worker] (Settings.java:98) - Structured second-level cache entries: disabled
+DEBUG [Test worker] (Settings.java:99) - Second-level cache direct-reference entries: disabled
+DEBUG [Test worker] (Settings.java:100) - Automatic eviction of collection cache: disabled
+DEBUG [Test worker] (Settings.java:102) - JDBC batch size: 15
+DEBUG [Test worker] (Settings.java:103) - JDBC batch updates for versioned data: enabled
+DEBUG [Test worker] (Settings.java:104) - Scrollable result sets: enabled
+DEBUG [Test worker] (Settings.java:105) - Wrap result sets: disabled
+DEBUG [Test worker] (Settings.java:106) - JDBC3 getGeneratedKeys(): enabled
+DEBUG [Test worker] (Settings.java:107) - JDBC result set fetch size: null
+DEBUG [Test worker] (Settings.java:108) - Connection release mode: AFTER_TRANSACTION
+DEBUG [Test worker] (Settings.java:109) - Generate SQL with comments: disabled
+DEBUG [Test worker] (Settings.java:111) - JPA compliance - query : disabled
+DEBUG [Test worker] (Settings.java:112) - JPA compliance - closed-handling : disabled
+DEBUG [Test worker] (Settings.java:113) - JPA compliance - lists : disabled
+DEBUG [Test worker] (Settings.java:114) - JPA compliance - transactions : disabled
+DEBUG [Test worker] (SessionFactoryImpl.java:259) - Session factory constructed with filter configurations : {}
+DEBUG [Test worker] (SessionFactoryImpl.java:260) - Instantiating session factory with properties: {java.specification.version=15, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgresPlusDialect, org.gradle.test.worker=2, java.class.path=C:\\Users\\patty\\.gradle\\caches\\6.7\\workerMain\\gradle-worker.jar;C:\\Users\\patty\\Hogan\\REVATURE\\RevTraining\\ExpenseReimbursementAPI\\build\\classes\\java\\test;C:\\Users\\patty\\Hogan\\REVATURE\\RevTraining\\ExpenseReimbursementAPI\\build\\resources\\test;C:\\Users\\patty\\Hogan\\REVATURE\\RevTraining\\ExpenseReimbursementAPI\\build\\classes\\java\\main;C:\\Users\\patty\\Hogan\\REVATURE\\RevTraining\\ExpenseReimbursementAPI\\build\\resources\\main;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\io.javalin\\javalin\\3.13.3\\835b785cded58f185aa814d360ff2db09d750010\\javalin-3.13.3.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-simple\\1.7.30\\e606eac955f55ecf1d8edcccba04eb8ac98088dd\\slf4j-simple-1.7.30.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.8.6\\9180733b7df8542621dc12e21e87557e8c99b8cb\\gson-2.8.6.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.postgresql\\postgresql\\42.2.18\\a0a9c1d43c7727eeaf1b729477891185d3c71751\\postgresql-42.2.18.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\log4j\\log4j\\1.2.17\\5af35056b4d257e4b64b9e8069c0746e8b08629f\\log4j-1.2.17.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.auth0\\java-jwt\\3.12.1\\beba805806ea8d408e51a96961dc2d61f7498ad8\\java-jwt-3.12.1.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate\\hibernate-core\\5.4.28.Final\\c096dbb27f83655ec252165340b532733c58e8fb\\hibernate-core-5.4.28.Final.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-junit-jupiter\\3.7.7\\bfc1de0638562399c49216d9035df32d58335e59\\mockito-junit-jupiter-3.7.7.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-engine\\5.7.0\\d9044d6b45e2232ddd53fa56c15333e43d1749fd\\junit-jupiter-engine-5.7.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-engine\\1.7.0\\eadb73c5074a4ac71061defd00fc176152a4d12c\\junit-platform-engine-1.7.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-commons\\1.7.0\\84e309fbf21d857aac079a3c1fffd84284e1114d\\junit-platform-commons-1.7.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-api\\5.7.0\\b25f3815c4c1860a73041e733a14a0379d00c4d5\\junit-jupiter-api-5.7.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-core\\3.7.7\\5d43943be9b57c8ff47d2b9640ea0a7fc7211cf2\\mockito-core-3.7.7.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.30\\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\\slf4j-api-1.7.30.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-webapp\\9.4.35.v20201120\\5ef2f6ab94093558377199d64fb5e31fadd3b036\\jetty-webapp-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty.websocket\\websocket-server\\9.4.35.v20201120\\acbe339e01e2067ddf6cf9e61399e1d6b04ccb3c\\websocket-server-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-servlet\\9.4.35.v20201120\\3e61bcb471e1bfc545ce866cbbe33c3aedeec9b1\\jetty-servlet-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-security\\9.4.35.v20201120\\80dc2f422789c78315de76d289b7a5b36c3232d5\\jetty-security-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-server\\9.4.35.v20201120\\513502352fd689d4730b2935421b990ada8cc818\\jetty-server-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk8\\1.3.71\\4defc79915cf4f78b49bbc4a8f1e80e87767a5b\\kotlin-stdlib-jdk8-1.3.71.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.checkerframework\\checker-qual\\3.5.0\\2f50520c8abea66fbd8d26e481d3aef5c673b510\\checker-qual-3.5.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-databind\\2.11.0\\8f5aaf3878b0647ff3a16610af53b1a5c05d9f15\\jackson-databind-2.11.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\commons-codec\\commons-codec\\1.14\\3cb1181b2141a7e752f5bdc998b7ef1849f726cf\\commons-codec-1.14.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.common\\hibernate-commons-annotations\\5.1.2.Final\\e59ffdbc6ad09eeb33507b39ffcf287679a498c8\\hibernate-commons-annotations-5.1.2.Final.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss.logging\\jboss-logging\\3.4.1.Final\\40fd4d696c55793e996d1ff3c475833f836c2498\\jboss-logging-3.4.1.Final.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\javax.persistence\\javax.persistence-api\\2.2\\25665ac8c0b62f50e6488173233239120fc52c96\\javax.persistence-api-2.2.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.javassist\\javassist\\3.27.0-GA\\f63e6aa899e15eca8fdaa402a79af4c417252213\\javassist-3.27.0-GA.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy\\1.10.19\\7a8cf46cd99db76f02b335d53aad222d42bc412d\\byte-buddy-1.10.19.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\antlr\\antlr\\2.7.7\\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\\antlr-2.7.7.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss.spec.javax.transaction\\jboss-transaction-api_1.2_spec\\1.1.1.Final\\a8485cab9484dda36e9a8c319e76b5cc18797b58\\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss\\jandex\\2.2.3.Final\\d3865101f0666b63586683bd811d754517f331ab\\jandex-2.2.3.Final.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml\\classmate\\1.5.1\\3fe0bed568c62df5e89f4f174c101eab25345b6c\\classmate-1.5.1.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\jaxb-runtime\\2.3.1\\dd6dda9da676a54c5b36ca2806ff95ee017d8738\\jaxb-runtime-2.3.1.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\javax.xml.bind\\jaxb-api\\2.3.1\\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\\jaxb-api-2.3.1.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\javax.activation\\javax.activation-api\\1.2.0\\85262acf3ca9816f9537ca47d5adeabaead7cb16\\javax.activation-api-1.2.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.dom4j\\dom4j\\2.1.3\\a75914155a9f5808963170ec20653668a2ffd2fd\\dom4j-2.1.3.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.apiguardian\\apiguardian-api\\1.1.0\\fc9dff4bb36d627bdc553de77e1f17efd790876c\\apiguardian-api-1.1.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.opentest4j\\opentest4j\\1.2.0\\28c11eb91f9b6d8e200631d46e20a7f407f2a046\\opentest4j-1.2.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy-agent\\1.10.19\\6453928a03a95dc23d7ef120cfd58f4539c64b53\\byte-buddy-agent-1.10.19.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.objenesis\\objenesis\\3.1\\48f12deaae83a8dfc3775d830c9fd60ea59bbbca\\objenesis-3.1.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty.websocket\\websocket-servlet\\9.4.35.v20201120\\d2d7d8c25a8d2aa2bbdbde127c4547f3229fabdf\\websocket-servlet-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\javax.servlet\\javax.servlet-api\\3.1.0\\3cd63d075497751784b2fa84be59432f4905bf7c\\javax.servlet-api-3.1.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty.websocket\\websocket-client\\9.4.35.v20201120\\d2db37ecff246d40c7c9b2c32e2162eab89842ea\\websocket-client-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-client\\9.4.35.v20201120\\b80f9c8992e2b96141755cd4e945599b4b65c287\\jetty-client-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-http\\9.4.35.v20201120\\45d35131a35a1e76991682174421e8cdf765fb9f\\jetty-http-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty.websocket\\websocket-common\\9.4.35.v20201120\\ca8ed6439eec7c32c887707fe99d11db846b7a4a\\websocket-common-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-io\\9.4.35.v20201120\\eb9460700b99b71ecd82a53697f5ff99f69b9e1c\\jetty-io-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-xml\\9.4.35.v20201120\\c5c95f91041b6e0e020ff4027e13d7c39fb1e606\\jetty-xml-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-jdk7\\1.3.71\\9180d3aec3f0b2ea6ef0dcf01b464a6e2219e381\\kotlin-stdlib-jdk7-1.3.71.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\1.3.71\\898273189ad22779da6bed88ded39b14cb5fd432\\kotlin-stdlib-1.3.71.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-annotations\\2.11.0\\c626020ae55d19c690d25cb51c1532ba76e5890f\\jackson-annotations-2.11.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml.jackson.core\\jackson-core\\2.11.0\\f84302e14648f9f63c0c73951054aeb2ff0b810a\\jackson-core-2.11.0.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\txw2\\2.3.1\\a09d2c48d3285f206fafbffe0e50619284e92126\\txw2-2.3.1.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.istack\\istack-commons-runtime\\3.0.7\\c197c86ceec7318b1284bffb49b54226ca774003\\istack-commons-runtime-3.0.7.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jvnet.staxex\\stax-ex\\1.8\\8cc35f73da321c29973191f2cf143d29d26a1df7\\stax-ex-1.8.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.fastinfoset\\FastInfoset\\1.2.15\\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\\FastInfoset-1.2.15.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-util-ajax\\9.4.35.v20201120\\ebbb43912c6423bedb3458e44aee28eeb4d66f27\\jetty-util-ajax-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty\\jetty-util\\9.4.35.v20201120\\ef61b83f9715c3b5355b633d9f01d2834f908ece\\jetty-util-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.eclipse.jetty.websocket\\websocket-api\\9.4.35.v20201120\\3a51cac89282c6d523cba9a3e436fbde606a0d8b\\websocket-api-9.4.35.v20201120.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.3.71\\e71c3fef58e26affeb03d675e91fd8abdd44aa7b\\kotlin-stdlib-common-1.3.71.jar;C:\\Users\\patty\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\13.0\\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\\annotations-13.0.jar, java.vm.vendor=AdoptOpenJDK, sun.arch.data.model=64, user.variant=, java.vendor.url=https://adoptopenjdk.net/, user.timezone=America/Chicago, java.vm.specification.version=15, os.name=Windows 10, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\AdoptOpenJDK\jdk-15.0.1.9-hotspot\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2', jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\patty, user.language=en, java.specification.vendor=Oracle Corporation, org.gradle.native=false, java.version.date=2020-10-20, java.home=C:\Program Files\AdoptOpenJDK\jdk-15.0.1.9-hotspot, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=15.0.1+9, user.name=patty, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:postgresql://104.197.147.254:5432/expensedb, file.encoding=windows-1252, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=AdoptOpenJDK, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-support/issues, java.io.tmpdir=C:\Users\patty\AppData\Local\Temp\, java.version=15.0.1, user.dir=C:\Users\patty\Hogan\REVATURE\RevTraining\ExpenseReimbursementAPI, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@57a3cf45, java.library.path=C:\Program Files\AdoptOpenJDK\jdk-15.0.1.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\AdoptOpenJDK\jdk-15.0.1.9-hotspot\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018b\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\patty\Hogan\Scripts\;C:\Users\patty\Hogan\;C:\Users\patty\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\patty\AppData\Local\Programs\Python\Python37-32\;C:\Users\patty\AppData\Local\Microsoft\WindowsApps;C:\Users\patty\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\patty\AppData\Local\GitHubDesktop\bin;C:\Users\patty\.dotnet\tools;C:\Users\patty\AppData\Roaming\npm;., java.vendor=AdoptOpenJDK, java.vm.info=mixed mode, sharing, java.vm.version=15.0.1+9, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.class.version=59.0}
+DEBUG [Test worker] (JaccIntegrator.java:80) - Skipping JACC integration as it was not enabled
+DEBUG [Test worker] (SessionFactoryImpl.java:300) - Instantiated session factory
+DEBUG [Test worker] (TypeConfiguration.java:157) - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4546a2f4] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1f3524f3]
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [dev.hbrown.entities.Employee] is safe
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : dev.hbrown.entities.Employee
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [dev.hbrown.entities.Expense] is safe
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : dev.hbrown.entities.Expense
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [dev.hbrown.entities.Manager] is safe
+DEBUG [Test worker] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : dev.hbrown.entities.Manager
+DEBUG [Test worker] (AbstractEntityPersister.java:3924) - Static SQL for entity: dev.hbrown.entities.Employee
+DEBUG [Test worker] (AbstractEntityPersister.java:3929) -  Version select: select employee_id from employee where employee_id =?
+DEBUG [Test worker] (AbstractEntityPersister.java:3932) -  Snapshot select: select employee_.employee_id, employee_.employee_name as employee2_0_, employee_.employee_pass as employee3_0_, employee_.employee_username as employee4_0_ from employee employee_ where employee_.employee_id=?
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Insert 0: insert into employee (employee_name, employee_pass, employee_username, employee_id) values (?, ?, ?, ?)
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Update 0: update employee set employee_name=?, employee_pass=?, employee_username=? where employee_id=?
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Delete 0: delete from employee where employee_id=?
+DEBUG [Test worker] (AbstractEntityPersister.java:3940) -  Identity insert: insert into employee (employee_name, employee_pass, employee_username) values (?, ?, ?)
+DEBUG [Test worker] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f3469c2]
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : name
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : password
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : username
+DEBUG [Test worker] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+DEBUG [Test worker] (LoadQueryJoinAndFetchProcessor.java:102) - processing queryspace <gen:0>
+DEBUG [Test worker] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=dev.hbrown.entities.Employee)
+    - Returns
+       - EntityReturnImpl(entity=dev.hbrown.entities.Employee, querySpaceUid=<gen:0>, path=dev.hbrown.entities.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=dev.hbrown.entities.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {employee1_0_0_}
+
+DEBUG [Test worker] (EntityLoader.java:129) - Static select for entity dev.hbrown.entities.Employee [NONE]: select employee0_.employee_id as employee1_0_0_, employee0_.employee_name as employee2_0_0_, employee0_.employee_pass as employee3_0_0_, employee0_.employee_username as employee4_0_0_ from employee employee0_ where employee0_.employee_id=?
+DEBUG [Test worker] (AbstractEntityPersister.java:3924) - Static SQL for entity: dev.hbrown.entities.Expense
+DEBUG [Test worker] (AbstractEntityPersister.java:3929) -  Version select: select expense_id from expense where expense_id =?
+DEBUG [Test worker] (AbstractEntityPersister.java:3932) -  Snapshot select: select expense_.expense_id, expense_.amount as amount2_1_, expense_.date_submitted as date_sub3_1_, expense_.date_verified as date_ver4_1_, expense_.employee_id as employee5_1_, expense_.reason as reason6_1_, expense_.status as status7_1_ from expense expense_ where expense_.expense_id=?
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Insert 0: insert into expense (amount, date_submitted, date_verified, employee_id, reason, status, expense_id) values (?, ?, ?, ?, ?, ?, ?)
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Update 0: update expense set amount=?, date_submitted=?, date_verified=?, employee_id=?, reason=?, status=? where expense_id=?
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Delete 0: delete from expense where expense_id=?
+DEBUG [Test worker] (AbstractEntityPersister.java:3940) -  Identity insert: insert into expense (amount, date_submitted, date_verified, employee_id, reason, status) values (?, ?, ?, ?, ?, ?)
+DEBUG [Test worker] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3845b34e]
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : amount
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : dateSubmitted
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : dateVerified
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : employeeId
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : reason
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : status
+DEBUG [Test worker] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+DEBUG [Test worker] (LoadQueryJoinAndFetchProcessor.java:102) - processing queryspace <gen:0>
+DEBUG [Test worker] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=dev.hbrown.entities.Expense)
+    - Returns
+       - EntityReturnImpl(entity=dev.hbrown.entities.Expense, querySpaceUid=<gen:0>, path=dev.hbrown.entities.Expense)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=dev.hbrown.entities.Expense)
+          - SQL table alias mapping - expense0_
+          - alias suffix - 0_
+          - suffixed key columns - {expense_1_1_0_}
+
+DEBUG [Test worker] (EntityLoader.java:129) - Static select for entity dev.hbrown.entities.Expense [NONE]: select expense0_.expense_id as expense_1_1_0_, expense0_.amount as amount2_1_0_, expense0_.date_submitted as date_sub3_1_0_, expense0_.date_verified as date_ver4_1_0_, expense0_.employee_id as employee5_1_0_, expense0_.reason as reason6_1_0_, expense0_.status as status7_1_0_ from expense expense0_ where expense0_.expense_id=?
+DEBUG [Test worker] (AbstractEntityPersister.java:3924) - Static SQL for entity: dev.hbrown.entities.Manager
+DEBUG [Test worker] (AbstractEntityPersister.java:3929) -  Version select: select manager_id from manager where manager_id =?
+DEBUG [Test worker] (AbstractEntityPersister.java:3932) -  Snapshot select: select manager_.manager_id, manager_.manager_name as manager_2_2_, manager_.manager_pass as manager_3_2_, manager_.manager_username as manager_4_2_ from manager manager_ where manager_.manager_id=?
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Insert 0: insert into manager (manager_name, manager_pass, manager_username, manager_id) values (?, ?, ?, ?)
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Update 0: update manager set manager_name=?, manager_pass=?, manager_username=? where manager_id=?
+DEBUG [Test worker] (DelegatingBasicLogger.java:394) -  Delete 0: delete from manager where manager_id=?
+DEBUG [Test worker] (AbstractEntityPersister.java:3940) -  Identity insert: insert into manager (manager_name, manager_pass, manager_username) values (?, ?, ?)
+DEBUG [Test worker] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e37e1bb]
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : name
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : password
+DEBUG [Test worker] (MetamodelGraphWalker.java:146) - Visiting attribute path : username
+DEBUG [Test worker] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+DEBUG [Test worker] (LoadQueryJoinAndFetchProcessor.java:102) - processing queryspace <gen:0>
+DEBUG [Test worker] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=dev.hbrown.entities.Manager)
+    - Returns
+       - EntityReturnImpl(entity=dev.hbrown.entities.Manager, querySpaceUid=<gen:0>, path=dev.hbrown.entities.Manager)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=dev.hbrown.entities.Manager)
+          - SQL table alias mapping - manager0_
+          - alias suffix - 0_
+          - suffixed key columns - {manager_1_2_0_}
+
+DEBUG [Test worker] (EntityLoader.java:129) - Static select for entity dev.hbrown.entities.Manager [NONE]: select manager0_.manager_id as manager_1_2_0_, manager0_.manager_name as manager_2_2_0_, manager0_.manager_pass as manager_3_2_0_, manager0_.manager_username as manager_4_2_0_ from manager manager0_ where manager0_.manager_id=?
+DEBUG [Test worker] (SchemaManagementToolCoordinator.java:57) - No actions specified; doing nothing
+DEBUG [Test worker] (JtaPlatformInitiator.java:43) - No JtaPlatform was specified, checking resolver
+DEBUG [Test worker] (JtaPlatformResolverInitiator.java:33) - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+DEBUG [Test worker] (StandardJtaPlatformResolver.java:137) - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ INFO [Test worker] (JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+DEBUG [Test worker] (NamedQueryRepository.java:153) - Checking 0 named HQL queries
+DEBUG [Test worker] (NamedQueryRepository.java:167) - Checking 0 named SQL queries
+DEBUG [Test worker] (SessionFactoryRegistry.java:51) - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@18d3578b
+DEBUG [Test worker] (SessionFactoryRegistry.java:73) - Registering SessionFactory: faa962e7-a12a-40b7-88a6-93e1227166eb (<unnamed>)
+DEBUG [Test worker] (SessionFactoryRegistry.java:80) - Not binding SessionFactory to JNDI, no JNDI name configured
+ INFO [Test worker] (UserServiceImpl.java:22) - Accessing Employee DB..
+DEBUG [Test worker] (StatisticsInitiator.java:101) - Statistics initialized [enabled=false]
+DEBUG [Test worker] (QueryTranslatorFactoryInitiator.java:45) - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@7c07c139
+DEBUG [Test worker] (QueryTranslatorImpl.java:292) - parse() - HQL: from dev.hbrown.entities.Employee
+DEBUG [Test worker] (ErrorTracker.java:97) - throwQueryException() : no errors
+DEBUG [Test worker] (QueryTranslatorImpl.java:313) - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[IDENT] Node: 'dev'
+                |  |  \-[IDENT] Node: 'hbrown'
+                |  \-[IDENT] Node: 'entities'
+                \-[IDENT] Node: 'Employee'
+
+DEBUG [Test worker] (HqlSqlBaseWalker.java:129) - select << begin [level=1, statement=select]
+DEBUG [Test worker] (FromElement.java:153) - FromClause{level=1} : dev.hbrown.entities.Employee (<no alias>) -> employee0_
+DEBUG [Test worker] (HqlSqlBaseWalker.java:133) - select : finishing up [level=1, statement=select]
+DEBUG [Test worker] (HqlSqlWalker.java:760) - processQuery() :  ( SELECT ( FromClause{level=1} employee employee0_ ) )
+DEBUG [Test worker] (HqlSqlWalker.java:1036) - Derived SELECT clause created.
+DEBUG [Test worker] (JoinProcessor.java:129) - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Employee): [employee]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(dev.hbrown.entities.Employee)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+DEBUG [Test worker] (JoinProcessor.java:304) - Using FROM fragment [employee employee0_]
+DEBUG [Test worker] (HqlSqlBaseWalker.java:137) - select >> end [level=1, statement=select]
+DEBUG [Test worker] (QueryTranslatorImpl.java:279) - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (employee)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'employee0_.employee_id as employee1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=employee,tableAlias=employee0_,origin=null,columns={,className=dev.hbrown.entities.Employee}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'employee0_.employee_name as employee2_0_, employee0_.employee_pass as employee3_0_, employee0_.employee_username as employee4_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[employee0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'employee employee0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=employee,tableAlias=employee0_,origin=null,columns={,className=dev.hbrown.entities.Employee}}
+
+DEBUG [Test worker] (ErrorTracker.java:97) - throwQueryException() : no errors
+DEBUG [Test worker] (QueryTranslatorImpl.java:258) - HQL: from dev.hbrown.entities.Employee
+DEBUG [Test worker] (QueryTranslatorImpl.java:259) - SQL: select employee0_.employee_id as employee1_0_, employee0_.employee_name as employee2_0_, employee0_.employee_pass as employee3_0_, employee0_.employee_username as employee4_0_ from employee employee0_
+DEBUG [Test worker] (ErrorTracker.java:97) - throwQueryException() : no errors
+DEBUG [Test worker] (SqlStatementLogger.java:144) - select employee0_.employee_id as employee1_0_, employee0_.employee_name as employee2_0_, employee0_.employee_pass as employee3_0_, employee0_.employee_username as employee4_0_ from employee employee0_
+Hibernate: select employee0_.employee_id as employee1_0_, employee0_.employee_name as employee2_0_, employee0_.employee_pass as employee3_0_, employee0_.employee_username as employee4_0_ from employee employee0_
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 0
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Employee#1]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 1
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Employee#2]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 2
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Employee#3]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 3
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Employee#4]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 4
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Employee#5]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 5
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Employee#6]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Employee#1]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Joe Emp
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = pass1
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = user1
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Employee#1]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Employee#2]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Jim Emp
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = pass2
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = user2
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Employee#2]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Employee#3]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = John Emp
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = pass3
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = user3
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Employee#3]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Employee#4]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Mario
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = mario
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = mario
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Employee#4]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Employee#5]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Luigi
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = luigi
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = luigi
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Employee#5]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Employee#6]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Princess Peach
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = peach
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = peach
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Employee#6]
+DEBUG [Test worker] (LogicalConnectionManagedImpl.java:172) - Initiating JDBC connection release from afterTransaction
+ INFO [Test worker] (UserDaoHibernate.java:37) - Employee found
+ INFO [Test worker] (UserServiceImpl.java:27) - Employee password verified.
+dev.hbrown.entities.Employee@2748e830
+ INFO [Test worker] (UserServiceImpl.java:42) - Accessing Manager DB...
+DEBUG [Test worker] (QueryTranslatorImpl.java:292) - parse() - HQL: from dev.hbrown.entities.Manager
+DEBUG [Test worker] (ErrorTracker.java:97) - throwQueryException() : no errors
+DEBUG [Test worker] (QueryTranslatorImpl.java:313) - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[IDENT] Node: 'dev'
+                |  |  \-[IDENT] Node: 'hbrown'
+                |  \-[IDENT] Node: 'entities'
+                \-[IDENT] Node: 'Manager'
+
+DEBUG [Test worker] (HqlSqlBaseWalker.java:129) - select << begin [level=1, statement=select]
+DEBUG [Test worker] (FromElement.java:153) - FromClause{level=1} : dev.hbrown.entities.Manager (<no alias>) -> manager0_
+DEBUG [Test worker] (HqlSqlBaseWalker.java:133) - select : finishing up [level=1, statement=select]
+DEBUG [Test worker] (HqlSqlWalker.java:760) - processQuery() :  ( SELECT ( FromClause{level=1} manager manager0_ ) )
+DEBUG [Test worker] (HqlSqlWalker.java:1036) - Derived SELECT clause created.
+DEBUG [Test worker] (JoinProcessor.java:129) - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Manager): [manager]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(dev.hbrown.entities.Manager)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+DEBUG [Test worker] (JoinProcessor.java:304) - Using FROM fragment [manager manager0_]
+DEBUG [Test worker] (HqlSqlBaseWalker.java:137) - select >> end [level=1, statement=select]
+DEBUG [Test worker] (QueryTranslatorImpl.java:279) - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (manager)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'manager0_.manager_id as manager_1_2_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=manager,tableAlias=manager0_,origin=null,columns={,className=dev.hbrown.entities.Manager}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'manager0_.manager_name as manager_2_2_, manager0_.manager_pass as manager_3_2_, manager0_.manager_username as manager_4_2_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[manager0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'manager manager0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=manager,tableAlias=manager0_,origin=null,columns={,className=dev.hbrown.entities.Manager}}
+
+DEBUG [Test worker] (ErrorTracker.java:97) - throwQueryException() : no errors
+DEBUG [Test worker] (QueryTranslatorImpl.java:258) - HQL: from dev.hbrown.entities.Manager
+DEBUG [Test worker] (QueryTranslatorImpl.java:259) - SQL: select manager0_.manager_id as manager_1_2_, manager0_.manager_name as manager_2_2_, manager0_.manager_pass as manager_3_2_, manager0_.manager_username as manager_4_2_ from manager manager0_
+DEBUG [Test worker] (ErrorTracker.java:97) - throwQueryException() : no errors
+DEBUG [Test worker] (SqlStatementLogger.java:144) - select manager0_.manager_id as manager_1_2_, manager0_.manager_name as manager_2_2_, manager0_.manager_pass as manager_3_2_, manager0_.manager_username as manager_4_2_ from manager manager0_
+Hibernate: select manager0_.manager_id as manager_1_2_, manager0_.manager_name as manager_2_2_, manager0_.manager_pass as manager_3_2_, manager0_.manager_username as manager_4_2_ from manager manager0_
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 0
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Manager#1]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 1
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Manager#2]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 2
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Manager#3]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 3
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Manager#4]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 4
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Manager#5]
+DEBUG [Test worker] (DelegatingBasicLogger.java:384) - Result set row: 5
+DEBUG [Test worker] (Loader.java:1593) - Result row: EntityKey[dev.hbrown.entities.Manager#6]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Manager#1]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Tim Manager
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = managerPass1
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = managerUser1
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Manager#1]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Manager#2]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Tom Manager
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = managerPass2
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = managerUser2
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Manager#2]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Manager#3]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Troy Manager
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = managerPass3
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = managerUser3
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Manager#3]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Manager#4]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Donkey Kong
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = dk
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = dk
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Manager#4]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Manager#5]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Bowser
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = bowser
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = bowser
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Manager#5]
+DEBUG [Test worker] (TwoPhaseLoad.java:198) - Resolving attributes for [dev.hbrown.entities.Manager#6]
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `name` : value = Big Boo
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`name`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `password` : value = boo
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`password`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:211) - Processing attribute `username` : value = boo
+DEBUG [Test worker] (TwoPhaseLoad.java:242) - Attribute (`username`)  - enhanced for lazy-loading? - false
+DEBUG [Test worker] (TwoPhaseLoad.java:381) - Done materializing entity [dev.hbrown.entities.Manager#6]
+DEBUG [Test worker] (LogicalConnectionManagedImpl.java:172) - Initiating JDBC connection release from afterTransaction
+ INFO [Test worker] (UserDaoHibernate.java:68) - Manager NOT found
+null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
