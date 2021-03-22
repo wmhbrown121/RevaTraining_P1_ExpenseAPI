@@ -1,18 +1,5 @@
-# /RevaTraining_P1_ExpenseAPI
+# RevaTraining_P1_ExpenseAPI
 
-This repo contains all documents related to project 1 of Revature training.
-
-## /ExpenseReimbursementAPI
-Main project folder
-
-### /ExpenseReimbursementAPI/build/libs
-Contains .jar file for deployment
-
-### /ExpenseWebpage/GCP
-Front-end HTML that have been deployed on GCP bucket.
-NOTE: These do not function properly due to JWT validation errors. 
-
-### /ExpenseWebpage/Local
-HTML for running on a local machine.
+This is an Expense Reimbursement API 
 
 
