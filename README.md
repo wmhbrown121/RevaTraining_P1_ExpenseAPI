@@ -59,13 +59,15 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
 #### B. Setup the VM through SSH
 ##### 1. Click the SSH button for the server under the Connect column of your list of VM instances
 ##### 2. Install Maven with the following command:
-###### - sudo yum install maven
+ - sudo yum install maven
 ##### 3. Upload project .jar file
-###### - Click the Settings gear icon at the top-right of the SSH window
-###### - Click **UPLOAD**
-###### - Navigate to the project folder (/build/libs/ExpenseReimbursementAPI-all-1.0.jar) and select the .jar file to upload to the VM.
-###### - Add the environment variable to the VM wiht the following command:
-######      - export P1_CONN_DETAILS=jdbc:postgresql://**< PostgreSQL DB IP address>**:5432/**<DB Name>**?user\=**<DB User username>**&password\=**<DB User password>**
+ - Click the Settings gear icon at the top-right of the SSH window
+ - Click **UPLOAD**
+ - Navigate to the project folder (/build/libs/ExpenseReimbursementAPI-all-1.0.jar) and select the .jar file to upload to the VM.
+ - Add the environment variable to the VM wiht the following command:
+    - export P1_CONN_DETAILS=jdbc:postgresql://<POSTGRESQL DB IP ADDRESS>:5432/<DB NAME>?user\=<DB USERNAME>&password\=<DB PASSWORD>
+
+
 ## Usage
 
 ## Contributors 
