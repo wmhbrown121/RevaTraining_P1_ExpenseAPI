@@ -13,19 +13,19 @@ This is an Expense Reimbursement REST API that allows employees of an organizati
 ## Features
 Login credentials with JWT authorization for employees and managers.
 Displays a table of expense reimbursement requests depending upon the users JWT credentials.
-    #### Employees 
+#### Employees 
   - Can submit new expense reimbursement requests.
   - Can view their past expense submissions by status or id.
-    #### Managers
+#### Managers
   - Can view all reimbursement requests for every employee.
   - Can search for requests by their status.
-  ### Future Improvements
+### Future Improvements
   - Add statistics for reimbursement approval amounts for managerial review.
   - Add more fields to employee reimbursement request form allowing employees to attach receipts/invoices
 ## Getting Started
-  ### 1. Create a new project on Google Cloud Platform
-  ### 2. Create instance of SQL database
-  #### A. Create a **PostgreSQL** instance with the following minimum requirements:
+### 1. Create a new project on Google Cloud Platform
+### 2. Create instance of SQL database
+#### A. Create a **PostgreSQL** instance with the following minimum requirements:
     - 1 vCPUs
     - 3.75 GB Memory
     - 10 GB SSD storage
@@ -56,8 +56,16 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
 ##### Identity and API access/Access scopes: select **Allow full access to all Cloud APIs**
 ##### Firewall: Allow both **HTTP and HTTPS traffic**
 ##### select CREATE
-
-####  CONN_DETAILS=jdbc:postgresql://**< PostgreSQL DB IP address>**:5432/**<DB Name>**?user\=**<DB User username>**&password\=**<DB User password>**
+#### B. Setup the VM through SSH
+##### 1. Click the SSH button for the server under the Connect column of your list of VM instances
+##### 2. Install Maven with the following command:
+###### - sudo yum install maven
+##### 3. Upload project .jar file
+###### - Click the Settings gear icon at the top-right of the SSH window
+###### - Click **UPLOAD**
+###### - Navigate to the project folder (/build/libs/ExpenseReimbursementAPI-all-1.0.jar) and select the .jar file to upload to the VM.
+###### - Add the environment variable to the VM wiht the following command:
+######      - export P1_CONN_DETAILS=jdbc:postgresql://**< PostgreSQL DB IP address>**:5432/**<DB Name>**?user\=**<DB User username>**&password\=**<DB User password>**
 ## Usage
 
 ## Contributors 
