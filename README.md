@@ -48,14 +48,14 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
     - Database User username and password
 ### 3. Create a **Compute Engine** instance
 #### A. Create VM instance with the following minimum configuration settings:
-##### Name: create a globally unique name for the compute engine
-##### Region: select a region close to your area for minimal latency
-##### Machine configuration/series: E2
-##### Machine configuration/Machine type: small
-##### Boot disk: **Change** to Cent OS Operating system
-##### Identity and API access/Access scopes: select **Allow full access to all Cloud APIs**
-##### Firewall: Allow both **HTTP and HTTPS traffic**
-##### select CREATE
+##### i. Name: create a globally unique name for the compute engine
+##### ii. Region: select a region close to your area for minimal latency
+##### iii. Machine configuration/series: E2
+##### iv. Machine configuration/Machine type: small
+##### v. Boot disk: **Change** to Cent OS Operating system
+##### vi. Identity and API access/Access scopes: select **Allow full access to all Cloud APIs**
+##### vii. Firewall: Allow both **HTTP and HTTPS traffic**
+##### viii. select CREATE
 #### B. Setup the VM through SSH
 ##### i. Click the SSH button for the server under the Connect column of your list of VM instances
 ##### ii. Install Maven with the following command:
@@ -71,25 +71,25 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
 ### 4. Setup Firewall Rules
 #### A. From the **Compute Engine** dashboard, under the **Related Actions** footer, select **Setup Firewall Rules**
 #### B. At the top of the dash, select **CREATE FIREWALL RULE** and use the following settings:
-##### Name: Set a name for the rule (i.e. javalin-server)
-##### Description: allow traffic on port 7000
-##### Targets/Target tags: **http-server**
-##### Source filters/IP ranges: **0.0.0.0/0**
-##### Protocols and ports: tcp:7000
+##### i. Name: Set a name for the rule (i.e. javalin-server)
+##### ii. Description: allow traffic on port 7000
+##### iii. Targets/Target tags: **http-server**
+##### iv. Source filters/IP ranges: **0.0.0.0/0**
+##### v. Protocols and ports: tcp:7000
 ### 5. Deploy on Storage Bucket
 #### A. Under side menu, under Storage, select Storage Browser
 #### B. **CREATE BUCKET**
-##### - Give the bucket a globally unique name and press CREATE. No other configuration required.
+##### i. Give the bucket a globally unique name and press CREATE. No other configuration required.
 #### C. Go to the newly created storage bucket
 #### D. Select **UPLOAD FILES**
-##### - Find the HTML files in this repo and upload them
+##### i. Find the HTML files in this repo and upload them
 #### E. For all 3 HTML files, select the 3 verticle dots to access the **Object Overflow Menu**
-##### - Select **Edit permissions**
-##### - In the new window, select **+ADD ENTRY** and set entity to **public**
+##### i. Select **Edit permissions**
+##### ii. In the new window, select **+ADD ENTRY** and set entity to **public**
 ### 6. Start up the server and run.
 #### A. All routes in the HTML files will have to be changed to the current IP address of the VM.
 #### B. Go the SSH of the VM and run the following command:
-##### - SSH: java -jar ExpenseReimbursementAPI-all-1.0.jar
+##### i. SSH: java -jar ExpenseReimbursementAPI-all-1.0.jar
 #### C. Copy the IP of the Compute VM and go to the following path in the browser: http://(IP ADDRESS):7000/
 ## Contributors 
 Adam Reneiri (Revature Trainer)
