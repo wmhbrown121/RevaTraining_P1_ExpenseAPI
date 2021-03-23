@@ -65,7 +65,7 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
  - Click **UPLOAD**
  - Navigate to the project folder (/build/libs/ExpenseReimbursementAPI-all-1.0.jar) and select the .jar file to upload to the VM.
  - Add the environment variable to the VM wiht the following command:
-    - export P1_CONN_DETAILS=jdbc:postgresql://<POSTGRESQL DB IP ADDRESS>:5432/<DB NAME>?user\=<DB USERNAME>&password\=<DB PASSWORD>
+    - export P1_CONN_DETAILS=jdbc:postgresql://**POSTGRESQL DB IP ADDRESS**:5432/**DB NAME**?user\=**DB USERNAME**&password\=**DB PASSWORD**
 
 
 ## Usage
