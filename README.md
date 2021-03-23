@@ -48,14 +48,14 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
     - Database User username and password
 ### 3. Create a **Compute Engine** instance
 #### A. Create VM instance with the following minimum configuration settings:
-##### i. Name: create a globally unique name for the compute engine
-##### ii. Region: select a region close to your area for minimal latency
-##### iii. Machine configuration/series: E2
-##### iv. Machine configuration/Machine type: small
-##### v. Boot disk: **Change** to Cent OS Operating system
-##### vi. Identity and API access/Access scopes: select **Allow full access to all Cloud APIs**
-##### vii. Firewall: Allow both **HTTP and HTTPS traffic**
-##### viii. select CREATE
+    - Name: create a globally unique name for the compute engine
+    - Region: select a region close to your area for minimal latency
+    - Machine configuration/series: E2
+    - Machine configuration/Machine type: small
+    - Boot disk: **Change** to Cent OS Operating system
+    - Identity and API access/Access scopes: select **Allow full access to all Cloud APIs**
+    - Firewall: Allow both **HTTP and HTTPS traffic**
+    - select CREATE
 #### B. Setup the VM through SSH
 ##### i. Click the SSH button for the server under the Connect column of your list of VM instances
 ##### ii. Install Maven with the following command:
