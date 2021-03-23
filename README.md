@@ -57,18 +57,36 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
 ##### Firewall: Allow both **HTTP and HTTPS traffic**
 ##### select CREATE
 #### B. Setup the VM through SSH
-##### 1. Click the SSH button for the server under the Connect column of your list of VM instances
-##### 2. Install Maven with the following command:
- - sudo yum install maven
-##### 3. Upload project .jar file
- - Click the Settings gear icon at the top-right of the SSH window
- - Click **UPLOAD**
- - Navigate to the project folder (/build/libs/ExpenseReimbursementAPI-all-1.0.jar) and select the .jar file to upload to the VM.
- - Add the environment variable to the VM wiht the following command:
-    - export P1_CONN_DETAILS=jdbc:postgresql://**POSTGRESQL DB IP ADDRESS**:5432/**DB NAME**?user\=**DB USERNAME**&password\=**DB PASSWORD**
+##### i. Click the SSH button for the server under the Connect column of your list of VM instances
+##### ii. Install Maven with the following command:
+  - sudo yum install maven
+##### iii. Upload project .jar file
+  - Click the Settings gear icon at the top-right of the SSH window
+  - Click **UPLOAD**
+  - Navigate to the project folder (/build/libs/ExpenseReimbursementAPI-all-1.0.jar) and select the .jar file to upload to the VM.
+  - NOTE: If the .jar file is not there, or is deleted, you can create a new one by running the following command in the command prompt in the project folder:
+    - gradlew fatjar
+##### iv. Add the environment variable to the VM with the following command:
+  - export P1_CONN_DETAILS=jdbc:postgresql://**POSTGRESQL DB IP ADDRESS**:5432/**DB NAME**?user\=**DB USERNAME**&password\=**DB PASSWORD**
+### 4. Setup Firewall Rules
+#### A. From the **Compute Engine** dashboard, under the **Related Actions** footer, select **Setup Firewall Rules**
+#### B. At the top of the dash, select **CREATE FIREWALL RULE** and use the following settings:
+##### Name: Set a name for the rule (i.e. javalin-server)
+##### Description: allow traffic on port 7000
+##### Targets/Target tags: **http-server**
+##### Source filters/IP ranges: **0.0.0.0/0**
+##### Protocols and ports: tcp:7000
+### 5. Deploy on Storage Bucket
+#### A. Under side menu, under Storage, select Storage Browser
+#### B. **CREATE BUCKET**
+##### - Give the bucket a globally unique name and press CREATE. No other configuration required.
+#### C. Go to the newly created storage bucket
+#### D. Select **UPLOAD FILES**
+##### - Find the HTML files in this repo and upload them
+#### E. For all 3 HTML files, select the 3 verticle dots to access the **Object Overflow Menu**
+##### - Select **Edit permissions**
+##### - In the new window, select **+ADD ENTRY** and set entity to **public**
 
-
-## Usage
 
 ## Contributors 
 
