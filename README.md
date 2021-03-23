@@ -86,10 +86,14 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
 #### E. For all 3 HTML files, select the 3 verticle dots to access the **Object Overflow Menu**
 ##### - Select **Edit permissions**
 ##### - In the new window, select **+ADD ENTRY** and set entity to **public**
-
-
+### 6. Start up the server and run.
+#### A. All routes in the HTML files will have to be changed to the current IP address of the VM.
+#### B. Go the SSH of the VM and run the following command:
+##### - SSH: java -jar ExpenseReimbursementAPI-all-1.0.jar
+#### C. Copy the IP of the Compute VM and go to the following path in the browser: http://(IP ADDRESS):7000/
 ## Contributors 
-
+Adam Reneiri (Revature Trainer)
 ## License
+None
 
 
