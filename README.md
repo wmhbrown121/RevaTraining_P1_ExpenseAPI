@@ -53,7 +53,7 @@ Displays a table of expense reimbursement requests depending upon the users JWT 
     - Database User username and password
 ### 3. Setup the environment variables 
   
-  ####A. CONN_DETAILS=jdbc:postgresql://**< PostgreSQL DB IP address>**:5432/**<DB Name>**?user\=**<DB User username>**&password\=**<DB User password>**
+  #### A. CONN_DETAILS=jdbc:postgresql://**< PostgreSQL DB IP address>**:5432/**<DB Name>**?user\=**<DB User username>**&password\=**<DB User password>**
 ## Usage
 
 ## Contributors 
