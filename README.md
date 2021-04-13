@@ -9,7 +9,7 @@ This is an Expense Reimbursement REST API that allows employees of an organizati
 - PostgreSQL - Version 42.2.18
 - Auth0/Java-JWT - Version 3.12.1
 - Log4j - Version 1.2.17
-- HTML/CSS
+- JS/HTML/CSS
 ## Features
 Login credentials with JWT authorization for employees and managers.
 Displays a table of expense reimbursement requests depending upon the users JWT credentials.
